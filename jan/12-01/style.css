@@ -1,0 +1,14 @@
+/*Cascading Style Sheets/
+/*Selector {declarations (property:value;)
+}*/
+nav {
+    background-color: black;
+}
+nav /*parent*/ ul /*child*/ li{
+    display: inline;
+    margin-right: 3rem;
+}
+nav ul li a /*anchor is a naughty child and needs to be spoken to directly*/{
+    color: whitesmoke;
+    text-decoration: none;
+}

@@ -2,52 +2,59 @@
 <html>
   <head>
     /*link:css a shortcut to link to a css file & ctrl+click will open it*/
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <!--./ good habit to give infinite root route-->
     <title>HTML/CSS</title>
     <!--internal style-->
     <style>
       /* CSS comment */
-      body /*this a selector*/{
-        background-color: mediumpurple;/*always a semicolon at the end*/
-      }/*this curly bracket structure is good practice*/
+      body /*this a selector*/ {
+        background-color: mediumpurple; /*always a semicolon at the end*/
+      } /*this curly bracket structure is good practice*/
     </style>
-</head>
-<!--inline style, please never do it-->
-<body style="background-color: lightsteelblue;">
+  </head>
+  <!--inline style, please never do it-->
+  <body style="background-color: lightsteelblue">
     <!--style attribute only applies to the tag it is in-->
     <!--body is a block element which pushes other elements to the next line-->
     <!-- Html intro day 2 -->
-    
+
     <!--http://127.0.0.1:5500/jan/12-01/HTML2.html-->
     <nav>
-        <ul>
-          <!--li*2>a*2 shortcut for multiplying elements and nested elements-->
-          <a href=""></a><a href=""></a><!--anchor is an inline element-->
-            <li><a href="#">🍏</a></li><!--# for the page you are already in-->
-            <li><a href="store.html">Store</a></li>
-            <li><a href="mac.html"></a>Mac</li>
-            <li><a href="iPad.html"></a>iPad</li>
-            <li><a href="iPhone.html"></a>iPhone</li>
-        </ul>
+      <ul>
+        <!--li*2>a*2 shortcut for multiplying elements and nested elements-->
+        <!--a or anchor is an inline element-->
+        <li><a href="#">🍏</a></li>
+        <!--# for the page you are already in-->
+        <li><a href="./store.html">Store</a></li>
+        <li><a href="./mac.html">Mac</a></li>
+        <li><a href="./iPad.html">iPad</a></li>
+        <li><a href="./iPhone.html">iPhone</a></li>
+      </ul>
     </nav>
     <h1>Hey</h1>
     <table>
-        <caption>Demo Table</caption>
-        <tr><!--Table row-->
-            <th>First name</th><!--Table Head-->
-            <th>Last name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ali</td><!--Table data-->
-            <td>Steel</td>
-            <td>22</td>
-        </tr>
-        <tr>
-            <td>Nancy</td>
-            <td>Solong</td>
-            <td>43</td>
-        </tr>
+      <caption>
+        Demo Table
+      </caption>
+      <tr>
+        <!--Table row-->
+        <th>First name</th>
+        <!--Table Head-->
+        <th>Last name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ali</td>
+        <!--Table data-->
+        <td>Steel</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Nancy</td>
+        <td>Solong</td>
+        <td>43</td>
+      </tr>
     </table>
     <ol type="A">
       <li>Eat</li>
@@ -58,12 +65,14 @@
       <li>Milk</li>
       <li>Eggs</li>
     </ul>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9719.704486289087!2d13.467697990549564!3d52.480473343757104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84f178779bda7%3A0x73ef11c01ac2e83a!2sPl%C3%A4nterwald%2C%20Berlin%2C%20Germany!5e0!3m2!1sen!2suk!4v1641983263480!5m2!1sen!2suk" 
-    width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9719.704486289087!2d13.467697990549564!3d52.480473343757104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84f178779bda7%3A0x73ef11c01ac2e83a!2sPl%C3%A4nterwald%2C%20Berlin%2C%20Germany!5e0!3m2!1sen!2suk!4v1641983263480!5m2!1sen!2suk"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    >
     </iframe>
   </body>
 </html>

@@ -8,14 +8,14 @@
     <title>Html/CSS Basics</title>
 </head>
 <body>
-    <p>
+    <p class="dark-style"><!--this-is-barbecue-style-->
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eligendi?
     </p>
-    <div>
+    <div class="dark-style"><!--this class selector is overtaken by the specific child selector in the CSS file-->
         <p>Hi</p>
     </div>
     <ol>
-        <li>First</li>
+        <li class="dark-style">First</li>
         <li>Second</li>
     </ol>
     <ul>
@@ -23,7 +23,7 @@
         <li>Last</li>
     </ul>
     <nav>
-        <ul>
+        <ul class="dark light"><!--the space means two different classes so you can mix and match-->
             <li>Home</li>
             <li>About</li>
         </ul>

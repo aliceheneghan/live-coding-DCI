@@ -1,0 +1,20 @@
+li {
+  background-color: blue;
+}
+
+div p {
+  background-color: red;
+}
+ul li {
+  background-color: yellow;
+}
+/* Menu */
+nav ul li {
+  background-color: gray;
+}
+.dark {
+  background-color: black;
+}
+.light {
+  color: orange;
+}

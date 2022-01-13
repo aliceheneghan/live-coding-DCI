@@ -1,0 +1,11 @@
+p{/*use solo selectors at the beginning of document if at all so they are easy to check-think unspecific to specific*/
+}
+div p{
+    background-color: red;
+}
+ul li {
+    background-color: yellow;
+}
+nav ul li {
+    background-color: gray;
+}

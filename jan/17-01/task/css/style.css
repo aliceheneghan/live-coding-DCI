@@ -1,0 +1,47 @@
+section div {
+    width: 10rem;
+    height: 10rem;
+    border: black solid;
+    display: inline-block;
+    margin-left: 3rem;
+
+}    
+#rectangle {
+    height: 15rem;
+    background-color: blue;
+}
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 100px purple solid;
+    border-right: 100px solid transparent;
+}
+#square {
+    background-color: green;
+}
+#circle {
+    border-radius: 50%;
+    background-color: yellow;
+}
+/* Hadi's version*/
+.shapes div {
+    width: 9rem;
+    height: 9rem;
+    display: inline-block;
+    border: 2px black solid;
+    margin-left: 3rem;
+}
+#rectangle2 {
+    height: 15rem;
+    background-color: blue;
+}
+#triangle-bottomleft2 {
+    background-color: purple;    
+}
+#square2 {
+    background-color: green;
+}
+#circle2 {
+    background-color: yellow;
+    border-radius: 50%;
+}

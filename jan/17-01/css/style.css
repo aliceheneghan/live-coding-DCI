@@ -1,5 +1,9 @@
 body {
-  background-color: orange;
+  /* background-color: orange;
+  background-image: url("../images/sky.jpeg");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: 30rem; */
 }
 /* h1,
 h2,
@@ -52,4 +56,10 @@ section div {
 }
 #green {
   background-color: green;
+}
+
+/* About main  */
+main img {
+  width: 150px;
+  height: 150px;
 }

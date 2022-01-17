@@ -1,9 +1,29 @@
 body {
     background-color: lightblue;
+    background-image: url("../images/background");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30rem;
 }
+/* h1, 
+h2, 
+h3, 
+#top, 
+.dark, 
+nav ul li a {
+    color: blue;
+} */
+/* menu */
 header nav {
-    
+    background-color: rgba(0, 0, 0, 0.76);
+    position: fixed;
 }
+header nav ul li {
+    height: 3rem;
+    display: inline;
+    margin-left: 3rem;
+}
+/* main */
 h1 {
     /*option 1*/
     color: plum;

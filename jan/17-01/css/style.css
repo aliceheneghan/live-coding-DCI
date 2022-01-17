@@ -1,9 +1,19 @@
 body {
     background-color: lightblue;
 }
+header nav {
+    
+}
 h1 {
-    background-color: gray;
+    /*option 1*/
     color: plum;
+    /*option 2*/
+    color: #CCC;
+    /*option 3*/
+    color: rgb(221, 160, 221); /*0-255 for colours*/
+    /*option 4*/
+    /*color: rgba();*/
+    background-color: rgba(20, 181, 235, 0.2); /*0-1 for transparency*/
     font-family: 'Cormorant Garamond', serif; /*second font is a backup in case of error*/
     font-size: 2rem;/*avoid cm/inches etc when you don't know your target device*/
     font-weight: 900;

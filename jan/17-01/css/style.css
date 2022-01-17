@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: blue;
+}
+/*DRY Don't repeat yourself*/
+section div {
+    width: 3rem;
+    height: 3rem;
+    border: 2px black solid;
+    border-radius: 50%; /*how much rounding for the corners*/
+}
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+#green {
+    background-color: greenyellow;
+}

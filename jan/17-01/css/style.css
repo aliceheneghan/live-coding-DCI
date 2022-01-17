@@ -1,9 +1,14 @@
+:root /*calls html index doc*/{
+    margin: 0;
+    
+    box-sizing: border-box; /* This always has to go at the beginning */
+}
 body {
-    background-color: lightblue;
+   /* background-color: lightblue;
     background-image: url("../images/background");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 30rem;
+    background-size: 30rem;*/
 }
 /* h1, 
 h2, 
@@ -53,4 +58,10 @@ section div {
 }
 #green {
     background-color: greenyellow;
+}
+/* About main*/
+main img {
+    width: 150px;
+    height: 150px;
+    border-top: 40px black solid;
 }

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /* background-color: orange;
   background-image: url("../images/sky.jpeg");
@@ -57,9 +63,55 @@ section div {
 #green {
   background-color: green;
 }
-
+/* Home main */
+.something {
+  width: 10rem;
+  height: 20rem;
+  background-color: deepskyblue;
+  margin: 20rem 5rem 5rem 2rem;
+  /* border: 12px red solid; */
+  border-width: 10px 22px 30px 10px;
+  border-color: red orange blue gray;
+  border-style: dashed solid dashed solid;
+}
 /* About main  */
 main img {
-  width: 150px;
+  width: 200px;
   height: 150px;
+  border-top: 40px black solid;
+  padding: 10px;
+}
+/* Shapes */
+.shapes div {
+  width: 9rem;
+  height: 9rem;
+  display: inline-block;
+  border: 2px black solid;
+  margin-left: 3rem;
+}
+#rectangle {
+  height: 15rem;
+  background-color: lightskyblue;
+}
+#triangle {
+  background-color: purple;
+  /* some more roles  */
+}
+#square {
+  background-color: green;
+}
+
+#circle {
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+h1 {
+  color: black;
+  /* letter-spacing: 50px; */
+  word-spacing: 50px;
+  text-indent: 100px;
+}
+p {
+  line-height: 40px;
 }

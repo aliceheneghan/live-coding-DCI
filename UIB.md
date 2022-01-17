@@ -99,3 +99,36 @@
 #### practice
 
 ---
+## [17.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/17-01) CSS  intro part 3
+### Css Grouping Selectors
+- Combining multiple selectors with `,`
+### Hyperlinks
+- Sending emails with `mailto:`
+### Font Family
+- Getting more fonts: Google fonts and css `@import` directive
+- Providing fallbacks: font stack values for `font-family`
+### Font Sizing
+- Setting text size with `font-size`
+- Relative to root: `rem` sizing and the `:root` selector
+### Color in CSS
+- Using keywords, RGB, RGBA, hex
+- Transparency and opacity
+### Backgrounds Images
+- `background-image` is for decoration not content
+- `background-size`, `background-repeat`, `no-repeat`
+- Setting multiple attributes with `background` shortcut
+### Modeling Boxes
+- Setting box width with `box-sizing: border-box;`
+- Spacing out our boxes - `margin` is for outside, `padding` for inside
+- Reset me softly - `* {margin: 0; padding:0; box-sizing: border-box;}`
+- Margins, paddings, width and height on inline elements
+- Changing boxes with css `display` and `inline`, `block` and `inline-block`
+### CSS Borders
+- border-width ,border-style,border-color
+- shorthand properties
+- border-radius
+### Text Formatting
+- color, letter-spacing , word-spacing
+- line-height , text-align, text-indent
+- text-decoration , text-transform 
+### Css assignment

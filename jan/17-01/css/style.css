@@ -2,7 +2,11 @@ body {
     background-color: lightblue;
 }
 h1 {
-    color: blue;
+    background-color: gray;
+    color: plum;
+    font-family: 'Cormorant Garamond', serif; /*second font is a backup in case of error*/
+    font-size: 2rem;/*avoid cm/inches etc when you don't know your target device*/
+    font-weight: 900;
 }
 /*DRY Don't repeat yourself*/
 section div {

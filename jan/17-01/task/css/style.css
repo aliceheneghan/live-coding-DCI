@@ -13,8 +13,10 @@ section div {
 #triangle-bottomleft {
     width: 0;
     height: 0;
-    border-bottom: 100px purple solid;
-    border-right: 100px solid transparent;
+    border-top: 80px transparent solid;
+    border-right: 80px transparent solid;
+    border-bottom:80px purple solid;
+    border-left: 80px purple solid;
 }
 #square {
     background-color: green;

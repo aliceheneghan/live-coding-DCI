@@ -1,1 +1,12 @@
-16 lines only
+table {
+    border-collapse: collapse;
+}
+table tr, td {
+    width: 5rem;
+    height: 5rem;
+    border: 2px black solid; 
+}
+table td:nth-child(2n)  {
+   background-color: black;
+}
+

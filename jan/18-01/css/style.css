@@ -1,0 +1,47 @@
+html {
+    font-size: 16px; /* overrides individual client settings */
+}
+/* Menu*/
+nav {
+    background-color: black;
+}
+ul li {
+    background-color: black;
+    display: inline;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+a, 
+a:visited, 
+a:link {
+    color: white;
+    text-decoration: none;
+    /* text-decoration-color: blue; */
+}
+a:hover { /* nav:hover would change whole nav bar hover */
+    background-color: white;
+    color: black;
+}
+
+/* Font formatting */
+h1 {
+    letter-spacing: 10px;   
+    text-align: center;
+}    
+div {
+    font-size: 20px;
+}
+p {
+    color: rgb(81, 245, 66);
+    /* letter-spacing: 10px; */
+    word-spacing: 10px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-indent: 50px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* 1 rem * root
+    1 em * parent */ 
+    font-size: 1em;
+    /* font-size: normal; */
+}

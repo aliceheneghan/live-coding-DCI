@@ -80,3 +80,20 @@ th {
     width: 1rem;
     border-spacing: 33px;
 }
+/* About page */
+.box {
+    border: 3px black solid;
+    width: 5rem;
+    height: 5rem;
+    background-color: cadetblue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: inline-block;
+}
+.one {
+    position: relative;
+    top: 100px;
+    left: 100px; 
+    background-color: gray;
+}

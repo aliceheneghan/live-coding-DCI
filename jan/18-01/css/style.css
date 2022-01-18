@@ -45,3 +45,14 @@ p {
     font-size: 1em;
     /* font-size: normal; */
 }
+/* image */
+#img1 {
+    border: 5px black solid;
+    padding: 10px 10px 75px 10px;
+    width: 25%;
+}
+img {
+    width: 100%;
+    height: 25rem;
+    border: 2px black solid;
+}

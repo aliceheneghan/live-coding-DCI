@@ -132,3 +132,36 @@
 - line-height , text-align, text-indent
 - text-decoration , text-transform 
 ### Css assignment
+-----
+## [18.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/18-01) CSS  intro
+### Font Sizing
+- Relative to parent: `em` sizing and nesting
+- Setting the base size:
+  `:root { font-size: 62.5% }` and decimal `rem`s (1.2rem = 12px)
+### Font Family
+- Pre Installed System fonts: css `font-family: <font-name>`
+### Stylish Text
+- Thicker text with css `font-weight`, choosing font weights on google fonts
+- Italics with css `font-style`
+- Underline and line-through with css `text-decoration`
+- Changing case with css `text-transform`
+### Pseudo Classes
+- Introducing state pseudo class
+- Coloring links with `:hover`, `:active` and `:visited`
+- Using MDN to locate additional selectors, combinators, elements and rules
+### CSS units 
+- `px` and `%`
+- `em` vs `rem`
+- Use cases for the different units
+### Using Images
+- Introducing the `<img>` tag
+- Framing our image with `border`
+- Controlling corners with `border-radius`
+- Using float (strictly with image and text)
+### Positioning
+- Understanding positioning - `static`, `relative`, `absolute`, `fixed`, `sticky`
+- Position offsets - `top`, `bottom`, `right`, `left`
+- Layering boxes with `z-index`
+### Fancy Shapes
+- Creating shapes using the the `border` property - 
+- Transforming shapes:  `transform`, `rotate()`, `scale()`

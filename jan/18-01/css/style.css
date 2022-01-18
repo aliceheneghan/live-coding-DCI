@@ -1,0 +1,118 @@
+html {
+  font-size: 16px;
+}
+/* Menu */
+nav {
+  background-color: black;
+}
+ul li {
+  background-color: black;
+  display: inline;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+a,
+a:visited,
+a:link {
+  color: white;
+  text-decoration: none;
+  /* text-decoration-color: blue; */
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Font formatting */
+h1 {
+  letter-spacing: 10px;
+  text-align: center;
+}
+/* div {
+  font-size: 20px;
+} */
+p {
+  color: rgb(81, 245, 66);
+  /* letter-spacing: 10px; */
+  word-spacing: 1rem;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* 
+    1 rem * root
+    1 em * parent
+  */
+  font-size: 1em;
+  /* font-style: normal; */
+}
+/* DRY */
+/* image */
+/* #img1 {
+  border: 5px black solid;
+  padding: 10px 10px 55px 10px;
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: -1;
+  opacity: 0.5;
+  filter: grayscale(100);
+} 
+/* img {
+  width: 100%;
+  height: 30rem;
+  border: 2px black solid;
+
+  /* transform: rotate(20deg); 
+} */
+#img1:hover {
+  transform: rotate(0deg);
+  z-index: 1;
+  opacity: 1;
+  filter: grayscale(0);
+}
+*/
+/* table */
+
+table,
+tr,
+td,
+th {
+  border: 2px red dotted;
+  width: 1rem;
+  border-spacing: 33px;
+}
+/* About page */
+/* 
+with no parent
+.box {
+  border: 3px black solid;
+  width: 5rem;
+  height: 5rem;
+  background-color: orange;
+  display: inline-block;
+}
+.one {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background-color: gray;
+} */
+/* with parent */
+.box {
+  position: relative;
+  border: 3px black solid;
+  width: 5rem;
+  height: 5rem;
+  background-color: orange;
+}
+.one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: gray;
+}

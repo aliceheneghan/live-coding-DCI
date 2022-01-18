@@ -50,9 +50,33 @@ p {
     border: 5px black solid;
     padding: 10px 10px 75px 10px;
     width: 25%;
+    /* margin-left: 300px; would move picture but occupy the margin space */
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    z-index: -1; /*sends picture to the back */
+    opacity: 0.5;
+    
 }
 img {
     width: 100%;
     height: 25rem;
     border: 2px black solid;
+    opacity: 1;
+    transform: rotate(20deg);
+}
+#img1:hover {
+    /* transform: scale(0.5); */
+    transform: rotate(0deg);
+    z-index: 1;
+    filter: grayscale(100);
+}
+/* table */
+table,
+tr,
+td,
+th {
+    border: 2px red dashed;
+    width: 1rem;
+    border-spacing: 33px;
 }

@@ -107,6 +107,17 @@ input[type="text"]:focus {
     outline: none;
     border: 2px pink solid;
 }
-/* */
-/* */
-/* */
+/* :active (when it's being used) */
+a:active {
+    background-color: red;
+}
+/* :checked */
+[type="checkbox"]:checked {
+    width: 3rem;
+}
+/* :nth-child() */
+/* n meaning any number and child element*/
+tr:nth-child(2n+1) /*3rd child of table so 3rd table row in this case */ {
+    background-color: black;
+    color: white;
+}

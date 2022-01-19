@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-size: 16px
+}
+
+/* CSS selectors */
+
+/* Element selector */
+html {
+    background-color: greenyellow;
+}
+/* 'ID selector */
+#cool {
+    color: hotpink;
+}
+
+/* .class selector */
+.box {
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+}
+
+/* element, element Selector
+    element AND element */
+p,
+span {
+    background-color: yellow;
+    }
+/* element element Selector
+    aka element inside element */
+p i {
+    font-size: 3rem;
+}
+header nav ul li /* or header li */ {
+    background-color: black;
+    color: wheat;
+}
+/* element>element Selector
+    element parent element */
+    div > p {
+        background-color: lavender;
+    }
+    /* element+element Selector
+        element immediately after element */
+div + p {
+    color: brown;
+}
+/*element1~element2 Selector
+    element preceded element */
+p ~ span {
+    font-size: 10rem;
+    background-color: darkcyan;
+}
+/* [attribute] Selector */
+[id] {
+    background-color: darkorchid;
+}
+/* [attribute=value] Selector */
+[type="submit"] {
+    
+}

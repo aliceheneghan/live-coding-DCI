@@ -62,5 +62,51 @@ p ~ span {
 }
 /* [attribute=value] Selector */
 [type="submit"] {
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+/* [attribute~=value] Selector
+    containing the value */
+[alt~=tree] {
+    width: 20rem;
+}
+form {
     
 }
+/* [attribute^=value] Selector
+    begins with the value */
+[title^="Here"] {
+    border: 2px red dashed
+}
+/* [attribute$=value] Selector
+    value ends with */
+[title$="data"] {
+    background-color: black;
+}
+/* [attribute*=value] Selector
+    contains the substring (a string within a string*/
+/* [class*="long"] {
+    border: 2px black dashed;
+} */
+[title*="long"] {
+    border: 5px black solid;
+}
+
+/* pseudo classes - specify a special state for that element */
+/* :hover */
+table:hover {
+    background-color: gray;
+}
+/* :visited */
+a, a:visited, a:link {
+    color: green;
+}
+/* :focus */
+input[type="text"]:focus {
+    outline: none;
+    border: 2px pink solid;
+}
+/* */
+/* */
+/* */

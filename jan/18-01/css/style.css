@@ -5,6 +5,12 @@ html {
 nav {
   background-color: black;
 }
+/* 
+rem : root ephemeral unit
+
+em : ephemeral unit
+
+*/
 ul li {
   background-color: black;
   display: inline;

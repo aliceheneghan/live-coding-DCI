@@ -98,9 +98,11 @@ main img {
   /* some more roles  */
   width: 0;
   height: 0;
-  border-bottom: 300px transparent solid;
-  border-right: 300px transparent solid;
-  border-left: 600px black solid;
+  /* you can add transparent color to any border to hide that one 😉 */
+  border-bottom: 300px green solid;
+  border-right: 300px orange solid;
+  border-left: 300px red solid;
+  border-left: 300px black solid;
 }
 #square {
   background-color: green;

@@ -1,5 +1,6 @@
-## [10-01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/10-01) Git Branching 
-- git clone 
+## [10-01](./jan/10-01) Git Branching
+
+- git clone
 - git remote add origin
 - git remote add upstream
 - git remote rename origin upstream

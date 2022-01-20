@@ -87,3 +87,9 @@ h1 {
 p {
     line-height: 30px;
 }
+.box {
+  background-color: lightblue;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20% 5% 20% 5%;
+}

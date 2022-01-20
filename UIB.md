@@ -1,4 +1,4 @@
-## [11.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/11-01) HTML intro
+## [11.10](./jan/11-01) HTML intro
 
 ### intro
 
@@ -33,7 +33,7 @@
 
 ---
 
-## [12.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/12-01) HTML/CSS intro
+## [12.10](./jan/12-01) HTML/CSS intro
 
 ### HTML Tables
 
@@ -84,7 +84,7 @@
 
 ---
 
-## [13.1](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/13-01) HTM/CSS intro part two
+## [13.1](./jan/13-01) HTM/CSS intro part two
 
 ### Understanding the cascade, specificity and inheritance
 
@@ -99,36 +99,132 @@
 #### practice
 
 ---
-## [17.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/17-01) CSS  intro part 3
+
+## [17.10](./jan/17-01) CSS intro part 3
+
 ### Css Grouping Selectors
+
 - Combining multiple selectors with `,`
+
 ### Hyperlinks
+
 - Sending emails with `mailto:`
+
 ### Font Family
+
 - Getting more fonts: Google fonts and css `@import` directive
 - Providing fallbacks: font stack values for `font-family`
+
 ### Font Sizing
+
 - Setting text size with `font-size`
 - Relative to root: `rem` sizing and the `:root` selector
+
 ### Color in CSS
+
 - Using keywords, RGB, RGBA, hex
 - Transparency and opacity
+
 ### Backgrounds Images
+
 - `background-image` is for decoration not content
 - `background-size`, `background-repeat`, `no-repeat`
 - Setting multiple attributes with `background` shortcut
+
 ### Modeling Boxes
+
 - Setting box width with `box-sizing: border-box;`
 - Spacing out our boxes - `margin` is for outside, `padding` for inside
 - Reset me softly - `* {margin: 0; padding:0; box-sizing: border-box;}`
 - Margins, paddings, width and height on inline elements
 - Changing boxes with css `display` and `inline`, `block` and `inline-block`
+
 ### CSS Borders
+
 - border-width ,border-style,border-color
 - shorthand properties
 - border-radius
+
 ### Text Formatting
+
 - color, letter-spacing , word-spacing
 - line-height , text-align, text-indent
-- text-decoration , text-transform 
+- text-decoration , text-transform
+
 ### Css assignment
+
+---
+
+## [18.10](./jan/18-01) CSS intro
+
+### Font Sizing
+
+- Relative to parent: `em` sizing and nesting
+- Setting the base size:
+  `:root { font-size: 62.5% }` and decimal `rem`s (1.2rem = 12px)
+
+### Font Family
+
+- Pre Installed System fonts: css `font-family: <font-name>`
+
+### Stylish Text
+
+- Thicker text with css `font-weight`, choosing font weights on google fonts
+- Italics with css `font-style`
+- Underline and line-through with css `text-decoration`
+- Changing case with css `text-transform`
+
+### Pseudo Classes
+
+- Introducing state pseudo class
+- Coloring links with `:hover`, `:active` and `:visited`
+- Using MDN to locate additional selectors, combinators, elements and rules
+
+### CSS units
+
+- `px` and `%`
+- `em` vs `rem`
+- Use cases for the different units
+
+### Using Images
+
+- Introducing the `<img>` tag
+- Framing our image with `border`
+- Controlling corners with `border-radius`
+- Using float (strictly with image and text)
+
+### Positioning
+
+- Understanding positioning - `static`, `relative`, `absolute`, `fixed`, `sticky`
+- Position offsets - `top`, `bottom`, `right`, `left`
+- Layering boxes with `z-index`
+
+### Fancy Shapes
+
+- Creating shapes using the the `border` property -
+- Transforming shapes: `transform`, `rotate()`, `scale()`
+
+---
+## [19.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/19-01) CSS selectors
+### HTML/Css assignment
+### Css selectors
+#### Basic selectors
+- Universal selector `*`
+- Type selector (Element selector)
+- ID selector 
+- Class selector 
+- attribute selectors 
+#### Grouping selectors
+- selector list "Combining multiple selectors with `,`"
+#### Combinators
+- Descendant combinator
+- Child combinator 
+- General sibling combinator
+- Adjacent sibling combinator
+- Column combinator 
+#### Pseudo 
+- Pseudo classes `:hover`, `:visited`, `:focus` ,`:active`, `:checked` 
+- pseudo child selectors: `:nth-child() 
+### Forms and Dynamic Data
+- Searching - `<form>`, `<input>`
+  

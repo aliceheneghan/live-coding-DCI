@@ -54,6 +54,9 @@ p::first-letter {
   width: 15vw; 
   /* view port height */
   height: 20vh;
+  filter: grayscale(10);
+  opacity: 0.1;
+  display: none;
 /* vh & vw */
 
 /* visual content like img */

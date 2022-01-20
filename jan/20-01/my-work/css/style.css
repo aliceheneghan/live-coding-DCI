@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root /* declaring variables in root allows access to all elements */ {
+  --my-color: lightgray;
+  --my-font-size: 3rem;
+  --other-color: rgba(222, 33, 5, 0.5);
+  --header-font-family: "Lucida Sans" Geneva, Verdana, sans-serif;
+  --box-width: 3rem;
+  --img-height: 44rem;
+}
+body {
+  /* --body-color: black; (this variable will only work for body */
+    color: var(--my-color);
+  } 
+h1 {
+  border: 2px var(--my-color) solid;
+}
+/* pseudo elements VS  pseudo classes */
+
+/* pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). */
+/* more pseudo classes
+  :valid
+  :hover */
+
+/* pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s) */
+
+/* ::before  Vs :before */
+/*   
+    :before css2 and ::before is css3
+  */
+h1::after {
+  content: "🐏"
+}
+h1::before {
+  content: "🦕";
+}
+/* ::placeholder  */
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+  color: var(--my-color);
+}
+/* ::first-letter (:first-letter) */
+p::first-letter {
+  color: var(--other-color);
+  /* font-size: 4rem; */
+  /* font-size: calc(var(--my-font-size) - 1rem); */
+  font-size: calc(var(--my-font-size) - 1rem);
+}
+/* display:none vs opacity: 0 */
+.dog {
+  /* view port width */
+  width: 15vw; 
+  /* view port height */
+  height: 20vh;
+/* vh & vw */
+
+/* visual content like img */
+/*  % , border-radius */

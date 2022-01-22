@@ -1,12 +1,17 @@
 main > h4 {
     color: green;
 }
- p + h4 {
-    color: palevioletred;
-}
 input[type="text"]:valid {
     background-color: palegreen;
 }
+/* input[name="fname2"]:invalid + span::before {
+    content: "❌";
+    color: red;
+} */
+br + h4 {
+    color: palevioletred;
+}
 input[type="url"]:invalid {
 color: palevioletred;
-}]
+}
+

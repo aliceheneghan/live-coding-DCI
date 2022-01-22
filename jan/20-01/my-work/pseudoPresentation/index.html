@@ -19,6 +19,7 @@
         <p>
             The :valid CSS <b>pseudo-class</b> represents any < input > or other < form > element whose contents validate successfully. This allows to easily make valid fields adopt an appearance that helps the user confirm that their data is formatted properly.
         </p>
+        <p><i>Example 1</i></p>
         <form action="" method="">
             <label for="fname">First name:</label>
             <input 
@@ -30,9 +31,23 @@
             required
             />
             <input
-            type="submit" value="enter"
+            type="submit" value="enter" />
         </form>
-        <p>*:valid is not supported by Internet Explorer</p>
+        <br />
+        <!--<p><i>Example 2</i></p>
+        <div>
+            <label for="fname">First name:</label>
+            <input 
+            type="text"
+            name="fname2"
+            id="2"
+            value=""
+            placeholder="Please type here" 
+            required
+            />
+            <span></span>
+        </div>
+        <br />-->
         <h4><u>:invalid</u></h4>
         <p>
             The :invalid CSS pseudo-class represents any < input > or other < form > element whose contents fail to validate.
@@ -42,7 +57,7 @@
             <input 
             type="url"
             name="url"
-            id="2"
+            id="3"
             value=""
             placeholder="Please type here" 
             required <!--necessary in order to trigger type formatting-->
@@ -50,6 +65,11 @@
             <input
             type="submit" value="enter"
         </form>
+        <br />
+        <br />
+        <br />
+        <br />
+        <p><i>*:valid and :invalid are not supported by Internet Explorer</i></p>
     </main>
 </center>
 </body>

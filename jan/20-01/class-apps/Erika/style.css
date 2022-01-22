@@ -1,0 +1,58 @@
+root {
+  --my-font-color: blue;
+  --my-border: 2px black solid;
+  --my-font-size: 15px;
+  --my-font-style: italic;
+}
+body {
+  background-color: rgb(181, 195, 204);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+.box {
+  padding: 3px;
+  border: 10px solid lightblue;
+}
+label {
+  font-size: 20px;
+  font-style: var(--my-font-style);
+  color: var(--my-font-color);
+}
+input {
+  display: block;
+  border: var(--my-border);
+  border-radius: 3px;
+  font-size: var(--my-font-size);
+  color: var(--my-font-color);
+}
+input:disabled {
+  border: 2px lightgray solid;
+}
+img {
+  width: 30vw;
+  height: 30vh;
+}
+div img {
+  border: 3px solid white;
+  position: relative;
+  left: 20rem;
+}
+div img:hover {
+  transform: rotate(10deg);
+  z-index: 1;
+  opacity: 1;
+  filter: grayscale(0);
+}
+h3 {
+  position: relative;
+  bottom: 15rem;
+  left: 30rem;
+  font-size: 40px;
+  font-style: italic;
+  color: var(--my-font-color);
+}

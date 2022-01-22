@@ -1,0 +1,14 @@
+/*he :nth-last-of-type() CSS pseudo-class matches elements based on their position among siblings of the same type (tag name), counting from the end. */
+span:nth-last-of-type() {
+  background-color: lime;
+}
+/* example with strong */
+/* The :only-child CSS pseudo-class represents an element without any siblings. This is the same as :first-child:last-child or :nth-child(1):nth-last-child(1), but with a lower specificity. */
+nav:only-child {
+  background-color: red;
+}
+/* div{
+      width: 100px;
+      height: 200px;
+  } */
+/* example with p */

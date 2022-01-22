@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pseudo Classes</title>
+</head>
+<body>
+    <header>
+        <h1>Formular</h1>
+        <h2>Autofill and Enabled fields</h2>
+    </header>
+<!-- :autofill -->
+<div class="box">
+    <form autocomplete="on" method="post" action="">
+        <label for="Name">First Name</label> <input type="text" name="Name" id="name" autocomplete="name"></form>
+        <label for="lastName">Last Name</label> <input type="text" name="lastName" id="lastName" autocomplete="lastName"></form>
+        <label for="email">Email</label> <input type="email" name="email" id="email" autocomplete="email"></form>
+<!-- :enabled -->
+        <label for="phone">Phone Number (enabled)</label> <input type="text" name="phone" id="phone" autocomplete="phone"></form>
+        <label for="address">Address (disabled)</label> <input type="text" name="address" id="address" autocomplete="address" disabled="disabled" placeholder="Address"></form>
+        <label for="comments">Comments (disabled)</label> <input type="text" name="comments" id="comments" autocomplete="comments" disabled="disabled" placeholder="Comments"></form>
+        <input type="button" value="Send">
+</div>
+<div>
+   <img src="./images/orquid1.jpg" alt="Orquid">
+</div>
+<h3>Thanks</h3>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>:valid and :invalid</title>
+  </head>
+  <body>
+    <header>
+      <h1>:valid and :invalid</h1>
+      <h3>...what do they mean?</h3>
+    </header>
+    <br />
+    <main>
+      <h4><u>:valid</u></h4>
+      <p>
+        The :valid CSS <b>pseudo-class</b> represents any < input > or other <
+        form > element whose contents validate successfully. This allows to
+        easily make valid fields adopt an appearance that helps the user confirm
+        that their data is formatted properly.
+      </p>
+      <p><i>Example 1</i></p>
+      <form action="" method="">
+        <label for="fname">First name:</label>
+        <input
+          type="text"
+          name="fname"
+          id="1"
+          value=""
+          placeholder="Please type here"
+          required
+        />
+        <input type="submit" value="enter" />
+      </form>
+      <br />
+      <h4><u>:invalid</u></h4>
+      <p>
+        The :invalid CSS pseudo-class represents any < input > or other < form >
+        element whose contents fail to validate.
+      </p>
+      <form action="" method="">
+        <label for="fname">Github url:</label>
+        <input
+          type="url"
+          name="url"
+          id="3"
+          value=""
+          placeholder="Please type here"
+          required
+          in
+          order
+          to
+          trigger
+          type
+          formatting--
+        />
+        /> <input type="submit" value="enter" />
+      </form>
+      <br />
+      <br />
+      <br />
+      <br />
+      <p>
+        <i>*:valid and :invalid are not supported by Internet Explorer</i>
+      </p>
+    </main>
+  </body>
+</html>

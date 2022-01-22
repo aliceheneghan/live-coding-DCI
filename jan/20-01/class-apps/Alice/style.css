@@ -1,0 +1,12 @@
+main > h4 {
+  color: green;
+}
+input[type="text"]:valid {
+  background-color: palegreen;
+}
+br + h4 {
+  color: palevioletred;
+}
+input[type="url"]:invalid {
+  color: palevioletred;
+}

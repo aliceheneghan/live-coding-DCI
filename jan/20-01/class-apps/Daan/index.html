@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>:target :target-within</title>
+  </head>
+  <body>
+    <h3>:target</h3>
+    <div>
+      <div>
+        <a href="#p1"><img src="./images/bicep.jpg" alt="Bicep" /></a>
+      </div>
+      <div>
+        <a href="#p2"><img src="./images/bicep.jpg" alt="Bicep" /></a>
+      </div>
+      <div>
+        <img id="p1" src="./images/bicep.jpg" alt="Bicep" />
+      </div>
+      <div>
+        <img id="p2" src="./images/bicep.jpg" alt="Bicep" />
+      </div>
+    </div>
+    <h3>:target-within</h3>
+    <ol>
+      <li><a href="#p3">Paragraph 1</a></li>
+      <li><a href="#p4">Paragraph 2</a></li>
+    </ol>
+    <article>
+      <h3>Article</h3>
+      <p id="p3">
+        You can target <i>Paragraph 1</i> using a URL fragment. Click on the
+        link above to try out!
+      </p>
+      <p id="p4">
+        This is <i>Paragraph 2</i>, also accessible from the links above. Isn't
+        that delightful?
+      </p>
+    </article>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero
+      consectetur sit aspernatur hic odio id, illum voluptatum ratione possimus
+      laudantium in aliquam pariatur alias. Esse voluptatibus veniam delectus,
+      sed suscipit odit a ipsam.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.ball {
+  background-color: burlywood;
+  border: 1px black solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  animation: ball 5s running infinite alternate;
+  position: relative;
+}
+.ball:focus {
+  animation: ball 5s running infinite;
+}
+@keyframes ball {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    top: 0px;
+    left: 400px;
+    background-color: bisque;
+  }
+  50% {
+    top: 200px;
+    left: 400px;
+    background-color: cornflowerblue;
+  }
+  75% {
+    top: 200px;
+    left: 0px;
+    background-color: crimson;
+  }
+  90% {
+    top: 200px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}

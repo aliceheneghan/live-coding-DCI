@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <label for="billing-checkbox">Same as shipping address:</label>
+        <input type="checkbox" id="billing-checkbox" checked />
+        <br />
+        <!-- The :disabled CSS pseudo-class represents any disabled element. An
+        element is disabled if it can't be activated (selected, clicked on,
+        typed into, etc.) or accept focus. The element also has an enabled
+        state, in which it can be activated or accept focus. -->
+        <input type="text" placeholder="Name" disabled />
+        <input type="text" placeholder="Address" disabled />
+        <input type="text" placeholder="Zip Code" disabled />
+      </fieldset>
+    </form>
+    <form>
+      <!-- The :read-only CSS pseudo-class represents an element (such as input or textarea)
+     that is not editable by the user.
+        One use of readonly form controls is to allow the user to check and verify information
+     that they may have entered in an earlier form (for example, shipping details),
+     while still being able to submit the information along with the rest of the form. -->
+      <fieldset>
+        <legend contenteditable="true">Check shipping details</legend>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" value="Mr Soft" readonly />
+        </div>
+        <div>
+          <label for="address">Address: </label>
+          <textarea id="address" name="address" readonly>
+         23 Elastic Way,
+         Viscous,
+         Bright Ridge,
+         CA
+         </textarea
+          >
+        </div>
+        <div>
+          <label for="pcode">Zip/postal code: </label>
+          <input id="pcode" name="pcode" type="text" value="94708" readonly />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Final instructions</legend>
+        <div>
+          <label for="sms-confirm">Send confirmation by SMS?</label>
+          <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+        </div>
+        <div>
+          <label for="instructions">Any special instructions?</label>
+          <textarea id="instructions" name="instructions"></textarea>
+        </div>
+      </fieldset>
+      <div><button type="button">Amend details</button></div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+/* ::part() */
+#tabbed-custom-element::part(tab) {
+  color: #0c0dcc;
+  border-bottom: transparent solid 2px;
+}
+#tabbed-custom-element::part(active) {
+  color: #0060df;
+  border-color: #0a84ff;
+}

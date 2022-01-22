@@ -1,0 +1,37 @@
+table th,
+td {
+  border: 2px black solid;
+  width: 6rem;
+  height: 3rem;
+  text-align: center;
+}
+p :only-of-type {
+  font-size: 3rem;
+  font-weight: bold;
+  color: red;
+}
+div :last-of-type {
+  background-color: beige;
+}
+tr:last-of-type {
+  background-color: gray;
+  font-weight: bold;
+}
+/* td:last-of-type {
+  background-color: gray;
+  font-weight: bold;
+} */
+label[for="email"]::after {
+  content: "*";
+}
+a,
+a:visited,
+a:link {
+  color: black;
+  font-size: 3rem;
+  display: block;
+}
+li:last-of-type {
+  background-color: blue;
+  list-style-type: none;
+}

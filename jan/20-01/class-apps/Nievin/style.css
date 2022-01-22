@@ -1,0 +1,23 @@
+body {
+  background-color: silver;
+}
+​ul li::marker {
+  color: darkmagenta;
+  font-size: 60px;
+  font-weight: bolder;
+}
+​ul,
+li {
+  font-size: 50px;
+  font-family: fantasy;
+}
+​h2,
+h3,
+h4,
+::target-text {
+  background-color: hotpink;
+  font-weight: bolder;
+}
+::target-text {
+  background-color: tomato;
+}

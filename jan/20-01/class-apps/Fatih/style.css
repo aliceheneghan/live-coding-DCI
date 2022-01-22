@@ -1,0 +1,11 @@
+#billing input[type="text"]:disabled {
+  background: rgb(147, 155, 151);
+  border: 4px solid;
+}
+input[type="text"]:read-only {
+  background-color: rgb(165, 208, 209);
+  border: 4px solid;
+}
+#address {
+  background-color: rgb(165, 208, 209);
+}

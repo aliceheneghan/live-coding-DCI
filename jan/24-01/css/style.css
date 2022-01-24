@@ -46,7 +46,7 @@ fieldset input:focus, select:focus /* difference between pseudo-class and elemen
 .switch input {
   opacity: 0;
   width: 0;
-  height: 0;
+  height: 0; 
 }
 
 /* The switch */
@@ -54,7 +54,7 @@ fieldset input:focus, select:focus /* difference between pseudo-class and elemen
   position: relative;
   width: 4rem;
   height: 2rem;
-  border:  2px red dashed;
+  /* border:  2px red dashed; */
   margin-left: 1rem;
 }
 .slider {
@@ -63,12 +63,29 @@ fieldset input:focus, select:focus /* difference between pseudo-class and elemen
   right: 0;
   left: 0;
   bottom: 0;
-  border: 2px pink solid;
+  /* border: 2px pink solid; */
   cursor: pointer;
   background-color: #CCC;
   border-radius: 5rem;
   transition: 0.2s;
 } /* position top to bottom: his stretches child (slider) class to fill the parent (switch) */
+
+.slider::before {
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgb(72, 163, 36);
+}
+input:checked + span {
+  background-color: palegreen;
+}
+input:checked + .slider::before {
+  transform: translateX(2rem);
+}
 
 /* font-awesome */
 i {

@@ -11,20 +11,68 @@
 body {
   font-family: "Akaya Telivigala", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
+    /* fixing width & height prevents distortion when app window stretched/minimized*/
   width: 100vw;
   height: 100vh;
 }
 /* form */
+form {
+  margin: 25% auto;
+  width: 50%;
+}
+fieldset input, select {
+  margin: 2vh auto;
+  display: block;
+  width: 40%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2 px gray solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+fieldset input:focus, select:focus /* difference between pseudo-class and element again? */ {
+  outline: none;
+  border-bottom: 4px goldenrod;
+}
+
 
 /* fancy checkbox */
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Hide the ugly html checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
 /* The switch */
+.switch {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  border:  2px red dashed;
+  margin-left: 1rem;
+}
+.slider {
+  position: absolute;
+  top: 0; /* 0 is the starting point of the corner */
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border: 2px pink solid;
+  cursor: pointer;
+  background-color: #CCC;
+  border-radius: 5rem;
+  transition: 0.2s;
+} /* position top to bottom: his stretches child (slider) class to fill the parent (switch) */
 
 /* font-awesome */
 i {
   font-size: 3rem;
-  color: var(--brown-is-my-base)
+  color: var(--brown-is-my-base);
   box-shadow: 40px 3px 40px pink; /* first angle, second angle, blur */
 }

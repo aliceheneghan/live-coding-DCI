@@ -13,6 +13,58 @@
     <title>Forms</title>
   </head>
   <body>
+    <form action="index.js" method="GET">
+      <!--https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap is a GET method example as you can see the information in the link-->
+      <fieldset>
+        <legend>Personal info</legend>
+        <input 
+        type="text" 
+        name="fName" 
+        id="1" 
+        placeholder="Your first name"
+        /> <!--use numbers for input ID-->
+        <input 
+        type="text" 
+        name="lName" 
+        id="2" 
+        placeholder="Your last name"
+        />
+        <input 
+        type="email" 
+        name="email" 
+        id="3" 
+        placeholder="Your email" 
+        required
+        /> <!--specify what is required for client-->
+      </fieldset>
+      <fieldset>
+        <legend>Favourite things</legend>
+        <input type="color" name="color" id="4" />
+        <input type="time" id="5" />
+       <!-- <input type="file" /> 
+        <input type="password" placeholder="Password" /> -->
+        <input type="number" min="1" max="100" required id="6" />
+        <select name="season" id="7" >  <!--can add multiple for a scrolling list-->
+          <option value="Summer">Summer</option>
+          <option value="Autumn">Autumn</option>
+          <option value="Winter">Winter</option>
+          <option value="Spring">Spring</option>
+        </select>
+        <section class="toggle" id="8">
+          <label class="toggle-table">Want more info?</label>
+          <label class="switch">
+            <input type="checkbox" name="agree" />
+            <span class="slider"></span>
+          </label>
+        </section>     
+      </fieldset>
+
+      <input type="submit" value="send" />
+      <input type="reset" value="clear" />
+
+
+    </form>
+   
     <i class="fa-solid fa-house"></i>
     <i class="fa-solid fa-house"></i>
     <i class="fa-solid fa-house"></i>

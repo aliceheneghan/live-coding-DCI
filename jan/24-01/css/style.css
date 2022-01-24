@@ -53,7 +53,7 @@ fieldset input:focus, select:focus /* difference between pseudo-class and elemen
 .switch {
   position: relative;
   width: 4rem;
-  height: 4rem;
+  height: 2rem;
   border:  2px red dashed;
   margin-left: 1rem;
 }

@@ -1,6 +1,7 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
-
+/* linking in CSS means you don't have to do it in EVERY html file */
+@import url("./color.css");
 * {
   margin: 0;
   padding: 0;
@@ -22,3 +23,8 @@ body {
 /* The switch */
 
 /* font-awesome */
+i {
+  font-size: 3rem;
+  color: var(--brown-is-my-base)
+  box-shadow: 40px 3px 40px pink; /* first angle, second angle, blur */
+}

@@ -9,8 +9,53 @@
       rel="stylesheet"
       href="./fontawesome-free-6.0.0-beta3-web/css/all.css"
     />
+    <!-- your css file -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Forms</title>
   </head>
-  <body></body>
+  <body>
+    <form action="index.js" method="GET">
+      <!-- info -->
+      <!-- http://127.0.0.1:5500/jan/24-01/index.js?fName=Hadi -->
+
+      <fieldset>
+        <legend>Personal info</legend>
+        <input type="text" name="fName" id="1" placeholder="Your first name" />
+        <input type="text" name="lName" id="2" placeholder="Your last name" />
+
+        <input
+          type="email"
+          name="email"
+          id="3"
+          placeholder="your email"
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Fav things</legend>
+        <input type="color" name="color" id="4" />
+        <input type="time" name="" id="5" />
+        <input type="number" min="1" max="100" id="6" required />
+        <select name="season" id="7">
+          <option value="summer">Summer</option>
+          <option value="autumn">Autumn</option>
+          <option value="winter">Winter</option>
+          <option value="spring">Spring</option>
+        </select>
+        <section class="toggle" id="8">
+          <label class="toggle-lable"> Wants more info?</label>
+          <label class="switch">
+            <input type="checkbox" name="agree" />
+            <span class="slider"></span>
+          </label>
+        </section>
+      </fieldset>
+      <input type="submit" value="send" />
+      <input type="reset" value="clear" />
+    </form>
+    <i class="fas fa-home"></i>
+    <i class="fas fa-sign-in-alt"></i>
+    <i class="fab fa-facebook-messenger"></i>
+    &#x261C;
+  </body>
 </html>

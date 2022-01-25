@@ -26,14 +26,12 @@ fieldset input, select {
   width: 40%;
   background-color: transparent;
   border: none;
-  border-bottom: 2 px gray solid;
   font-family: Arial, Helvetica, sans-serif;
 }
 fieldset input:focus, select:focus /* difference between pseudo-class and element again? */ {
   outline: none;
   border-bottom: 4px goldenrod;
 }
-
 
 /* fancy checkbox */
 .toggle {

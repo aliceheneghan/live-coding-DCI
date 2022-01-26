@@ -1,0 +1,33 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+/* root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+/* Flex */
+.container {
+  width: 15rem;
+  height: 20rem;
+  border: 2px black solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container div {
+  width: 3rem;
+  height: 5rem;
+  background-color: orange;
+  border: 2px black solid;
+}

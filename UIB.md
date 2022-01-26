@@ -117,7 +117,7 @@
 
 ### Font Sizing
 
-- Setting text size with `font-size`
+- Setting text size with `font-size
 - Relative to root: `rem` sizing and the `:root` selector
 
 ### Color in CSS
@@ -266,3 +266,33 @@ Defining in `:root { --[name]: [value] }`
 - Use cases for the different units
 
 #### Presentation pseudo classes and elements
+
+----
+## [24.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/24-01) Forms in Html
+### Icon Fonts
+- Conveying meaning without text: fontawesome
+- Adding fontawesome to our websites: choosing the correct CSS links
+- Sizing icons with Fontawsome sizing utility classes
+- Alternatives to Fontawesome - flaticon, thenounproject.com
+### Let The Light In 
+- Using `box-shadow` to emulate a light source
+- Using multiple instances of `box-shadow`
+### Forms and Dynamic Data
+- Searching - `<form>`, `<input>`
+- Sending forms to a URL - the `action` attribute
+- Importance of names: `<input name=[...]>` attribute, 
+   `<label for=[...]>`
+- URL structure & anatomy 
+- HTTP verbs - `GET`, `POST` and the `method` attribute
+ - `<form>`, `<fieldset>`, `<legend>`
+### Styling our Form 2 - Use Case
+- Creating a CSS only toggle switch
+### Publishing with GitHub pages
+------
+## [25.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/25-01) intro to Flexbox 
+### HTML/CSS assignment
+- Log-in page
+### Revision 
+### Flexbox on parent elements
+- Flexible boxes: `display: flex`, flex child & flex parent concept
+- Aligning and justifying: `justify-content` and `align-items`

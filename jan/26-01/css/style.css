@@ -50,29 +50,3 @@ background-color: lightcoral;
  */
 
 /*  flex-basis : sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing. */
- table {
-     width: 90vw;
-     height: 90vh;
-     margin: 10vh auto;
- }
- td {
-     text-align: center;
-     width: 3rem;
-     height: 2rem;
-     border-radius: 10%;
-     border: 2px gray solid;
- }
- td:empty {
-     border: none;
- }
- td:hover {
-     transform: scale(1.5);
-     transition: 0.5s;
- }
- tr:nth-child(n + 3):nth-child(-n + 5) :nth-child(n + 4):nth-child(-n + 5) {
-     background-color: orange;
- }
- /* no space:nth-child() means staying on parent | -n tells calculation to stop so n+3 -n+5 means go from t3rd to 5th row */
- tr:nth-child(7) :nth-child(7) {
-     background-color: aqua;
- }

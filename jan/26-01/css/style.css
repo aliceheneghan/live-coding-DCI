@@ -1,3 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* shorthand */
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  width: 40rem;
+  height: 30rem;
+  border: 2px black solid;
+}
+.child {
+  /* width: 5rem;
+  height: 8rem; */
+  color: white;
+  margin-left: 1rem;
+  border: 2px black solid;
+}
+.green {
+  background-color: lightgreen;
+  order: 1;
+  flex-grow: 8;
+}
+.red {
+  background-color: lightcoral;
+  order: 1;
+  flex-grow: 2;
+}
+.black {
+  background-color: black;
+  flex-grow: 1;
+}
+.box {
+  order: 2;
+}
+
 /* special effects */
 /*  order : sets the order to lay out an item in a flex */
 
@@ -19,3 +56,26 @@
  */
 
 /*  flex-basis : sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing. */
+
+table {
+  width: 90vw;
+  height: 90vh;
+  margin: 10vh auto;
+}
+td {
+  text-align: center;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 10%;
+  border: 2px gray solid;
+}
+td:empty {
+  /* border: none; */
+}
+td:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+tr:nth-child(7) :nth-child(n + 3):nth-child(-n + 4) {
+  background-color: rgba(0, 0, 222, 0.5);
+}

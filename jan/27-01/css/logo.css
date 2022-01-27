@@ -1,0 +1,21 @@
+/* logo */
+.logo {
+  flex-grow: 1;
+  /* align-self: center; */
+  /* display: flex;
+  justify-content: flex-end; */
+  /* align-items: ; */
+  /* order: 1; */
+}
+/* .logo :nth-child(1) */
+.logo :first-child {
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace, cursive;
+}
+/* .logo :nth-child(2) */
+.logo :last-child {
+  color: var(--company-them-logo-color);
+  font-size: 1.5rem;
+  font-family: "Pacifico", cursive;
+}

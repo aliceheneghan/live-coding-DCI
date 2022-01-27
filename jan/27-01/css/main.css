@@ -1,0 +1,71 @@
+/*  Main   */
+.main-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-container article {
+  height: 75vh;
+  display: flex;
+}
+/* shape */
+.just-shapes {
+  width: 70vw;
+  height: 50vh;
+  z-index: 1;
+}
+.shape {
+  width: 100%;
+  height: 80%;
+  border-radius: 100% 10%;
+  transform: rotate(60deg);
+  opacity: 0.8;
+  background-color: var(--company-them-logo-color);
+}
+.two {
+  width: 30%;
+  height: 20%;
+  transform: rotate(-50deg);
+}
+/* main intro */
+.main-intro {
+  padding-top: 20vh;
+  z-index: 1;
+  color: var(--main-text-color);
+  line-height: 3.5vh;
+  font-size: 1.5rem;
+}
+/* about */
+.about {
+  justify-content: space-around;
+  flex-direction: column;
+  flex-flow: wrap;
+  background-color: var(--company-them-bg-color);
+}
+.about .bg {
+  margin-bottom: 2vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 40px 10px;
+  background-color: white;
+  border-radius: 2%;
+  border: 2px rgba(0, 0, 0, 0.529) solid;
+}
+.card {
+  width: 90%;
+  height: 100%;
+  border-radius: 2%;
+}
+.eat {
+  background-color: bisque;
+}
+.sleep {
+}
+.dream {
+}
+.repeat {
+}

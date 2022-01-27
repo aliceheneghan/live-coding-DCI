@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Sedgwick+Ave&display=swap");
 @import url(./var.css);
+/* your own mods */
 @import url(./logo.css);
 @import url(./menu.css);
 @import url(./anchors.css);
@@ -12,8 +13,9 @@
   scroll-behavior: smooth;
   transition: 0.4s;
 }
-
 body {
+  /* view port width */
+  /* view port height */
   width: 100vw;
   height: 100vh;
   font-family: "Montserrat", sans-serif;

@@ -1,1 +1,30 @@
 /* footer */
+footer {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--company-them-bg-color);
+}
+footer ul {
+  margin-bottom: 1%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer ul li {
+  display: inline;
+}
+footer hr {
+  width: 100%;
+}
+footer div {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

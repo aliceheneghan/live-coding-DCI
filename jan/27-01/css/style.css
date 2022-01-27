@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Sedgwick+Ave&display=swap");
+@import url(./var.css);
+@import url(./logo.css);
+@import url(./menu.css);
+@import url(./anchors.css);
+@import url(./main.css);
+@import url(./footer.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.4s;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}

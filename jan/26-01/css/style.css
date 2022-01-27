@@ -70,7 +70,7 @@ td {
   border: 2px gray solid;
 }
 td:empty {
-  /* border: none; */
+  border: none;
 }
 td:hover {
   transform: scale(1.5);

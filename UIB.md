@@ -267,32 +267,68 @@ Defining in `:root { --[name]: [value] }`
 
 #### Presentation pseudo classes and elements
 
-----
+---
+
 ## [24.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/24-01) Forms in Html
+
 ### Icon Fonts
+
 - Conveying meaning without text: fontawesome
 - Adding fontawesome to our websites: choosing the correct CSS links
 - Sizing icons with Fontawsome sizing utility classes
 - Alternatives to Fontawesome - flaticon, thenounproject.com
-### Let The Light In 
+
+### Let The Light In
+
 - Using `box-shadow` to emulate a light source
 - Using multiple instances of `box-shadow`
+
 ### Forms and Dynamic Data
+
 - Searching - `<form>`, `<input>`
 - Sending forms to a URL - the `action` attribute
-- Importance of names: `<input name=[...]>` attribute, 
-   `<label for=[...]>`
-- URL structure & anatomy 
+- Importance of names: `<input name=[...]>` attribute,
+  `<label for=[...]>`
+- URL structure & anatomy
 - HTTP verbs - `GET`, `POST` and the `method` attribute
- - `<form>`, `<fieldset>`, `<legend>`
+- `<form>`, `<fieldset>`, `<legend>`
+
 ### Styling our Form 2 - Use Case
+
 - Creating a CSS only toggle switch
+
 ### Publishing with GitHub pages
-------
-## [25.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/25-01) intro to Flexbox 
+
+---
+
+## [25.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/25-01) intro to Flexbox
+
 ### HTML/CSS assignment
+
 - Log-in page
-### Revision 
+
+### Revision
+
 ### Flexbox on parent elements
+
 - Flexible boxes: `display: flex`, flex child & flex parent concept
 - Aligning and justifying: `justify-content` and `align-items`
+
+---
+
+## [26.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/26-01) Flexbox
+
+### Flexbox on parent elements
+
+- Direction and wrapping: `flex-direction` and `flex-wrap`
+- Small shorthand: `flex-flow`
+
+### Flexbox on child elements
+
+- Growing and shrinking: `flex-grow` and `flex-shrink`
+- Base sizing: `flex-basis` and the `flex` shorthand
+- Reordering children: `order` and `align-self`
+- The perfect center:
+  centering in fixed height parents with `display: flex` and `margin: auto`
+
+### Html/Css assignment : Periodic Table

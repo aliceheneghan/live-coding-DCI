@@ -14,7 +14,7 @@
 .just-shapes {
   width: 70vw;
   height: 50vh;
-  z-index: 1;
+  z-index: -1;
 }
 .shape {
   width: 100%;

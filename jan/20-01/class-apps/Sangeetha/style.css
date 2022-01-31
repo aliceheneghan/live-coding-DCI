@@ -1,0 +1,26 @@
+input,
+button {
+  margin: 10px;
+}
+.button-1 {
+  width: 6rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+.red-input:focus {
+  background: var(--my-color);
+  font-size: var(--my-font-size);
+  color: red;
+}
+.blue-input:focus {
+  background: yellow;
+  font-size: var(--my-font-size);
+  color: green;
+}
+/* focus-visible */
+input[type="submit"]:focus {
+  outline: 2px solid red;
+}
+input[type="submit"]:focus-visible {
+  outline: 5px solid blue;
+}

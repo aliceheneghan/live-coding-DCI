@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>In Range</title>
+  </head>
+  <body>
+    <h1>This is In-Range</h1>
+    <br />
+    <p id="info">
+      Elements of type range let the user specify a numeric value which must be
+      no less than a given value, and no more than another given value. The
+      precise value, however, is not considered important. This is typically
+      represented using a slider or dial control rather than a text entry box
+      like the number input type.
+    </p>
+    <br />
+    <form action="" id="form1">
+      <p>Request for Covid Test!!!</p>
+      <ul>
+        Values between 1 and 4 are valid.
+        <li>
+          <input
+            id="value1"
+            name="value1"
+            type="number"
+            placeholder="1 to 10"
+            min="1"
+            max="4"
+            value="0"
+            required
+          />
+          <label for="value1">Your value is </label>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

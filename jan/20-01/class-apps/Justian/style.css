@@ -1,0 +1,21 @@
+label {
+  display: block;
+  margin: 1px;
+  padding: 1px;
+}
+.field {
+  margin: 1px;
+  padding: 1px;
+}
+input:invalid {
+  background-color: red;
+}
+input:valid {
+  background-color: green;
+}
+form:invalid {
+  border: 5px solid red;
+}
+form:valid {
+  border: 5px solid green;
+}

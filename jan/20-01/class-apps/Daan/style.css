@@ -1,0 +1,20 @@
+img {
+  width: 15%;
+  height: 15%;
+}
+img:target {
+  filter: grayscale();
+  transform: rotate(10deg);
+}
+p:target i {
+  background-color: grey;
+  color: rgb(255, 81, 0);
+}
+/*
+  article:target-within {
+      background-color: grey;
+    }
+  */
+article {
+  background-color: grey;
+}

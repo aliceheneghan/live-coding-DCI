@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <h1>CSS pseudo-elements and pseudo-class selectors</h1>
+    <img src="./images/computer.jpg" alt="computer" />
+    <h2>::part()</h2>
+    <p>
+      The ::part CSS pseudo-element represents any element within a shadow tree
+      that has a matching part attribute.
+    </p>
+    <template id="tabbed-custom-element">
+      <div part="tab active">Tab 1</div>
+      <div part="tab">Tab 2</div>
+      <div part="tab">Tab 3</div>
+    </template>
+    <h2>:future</h2>
+    <p>
+      The :future CSS pseudo-class selector is a time-dimensional pseudo-class
+      that will match for any element which appears entirely after an element
+      that matches :current. For example in a video with captions which are
+      being displayed by WebVTT.
+    </p>
+  </body>
+</html>

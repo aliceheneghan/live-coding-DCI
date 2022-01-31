@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./img/img3-2.jpg);
+}
+h1 {
+  color: rgb(3, 162, 202);
+  text-align: center;
+  font-size: 65px;
+}
+p {
+  color: rgb(3, 162, 202);
+  text-align: center;
+  font-size: 40px;
+}
+img {
+  width: 45rem;
+  filter: grayscale();
+  border: 5px rgb(8, 186, 199) solid;
+}
+img:hover {
+  filter: grayscale(0);
+}
+/* The worst kind of DRY code */
+#img1 {
+  padding: 10px 10px 55px 10px;
+  width: 30%;
+  transform: rotate(20deg);
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transition: 0.3s;
+}
+#img1:hover {
+  transform: rotate(0deg);
+  z-index: 1;
+  transition: 0.3s;
+}
+#img2 {
+  padding: 20px 20px 55px 150px;
+  width: 30%;
+  transform: rotate(20deg);
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  transition: 0.3s;
+}
+#img2:hover {
+  transform: rotate(0deg);
+  z-index: 1;
+  transition: 0.3s;
+}
+#img3 {
+  padding: 10px 60px 55px 250px;
+  width: 30%;
+  transform: rotate(20deg);
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transition: 0.3s;
+}
+#img3:hover {
+  transform: rotate(0deg);
+  z-index: 1;
+  transition: 0.3s;
+}
+/* the assignment on 20-01-2022 */
+/* p::before {
+  content: ":boat:";
+}
+p::after {
+  content: ":sunrise:";
+} */
+p::before {
+  content: ":boat:";
+}
+p::after {
+  content: ":sunrise:";
+}

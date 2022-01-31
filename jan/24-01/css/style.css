@@ -39,7 +39,6 @@ fieldset input:focus, select:focus /* difference between pseudo-class and elemen
   align-items: center;
   justify-content: center;
 }
-
 /* Hide the ugly html checkbox */
 .switch input {
   opacity: 0;

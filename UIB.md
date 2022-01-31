@@ -117,7 +117,7 @@
 
 ### Font Sizing
 
-- Setting text size with `font-size`
+- Setting text size with `font-size
 - Relative to root: `rem` sizing and the `:root` selector
 
 ### Color in CSS
@@ -205,26 +205,94 @@
 - Transforming shapes: `transform`, `rotate()`, `scale()`
 
 ---
+
 ## [19.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/19-01) CSS selectors
+
 ### HTML/Css assignment
+
 ### Css selectors
+
 #### Basic selectors
+
 - Universal selector `*`
 - Type selector (Element selector)
-- ID selector 
-- Class selector 
-- attribute selectors 
+- ID selector
+- Class selector
+- attribute selectors
+
 #### Grouping selectors
+
 - selector list "Combining multiple selectors with `,`"
+
 #### Combinators
+
 - Descendant combinator
-- Child combinator 
+- Child combinator
 - General sibling combinator
 - Adjacent sibling combinator
-- Column combinator 
-#### Pseudo 
-- Pseudo classes `:hover`, `:visited`, `:focus` ,`:active`, `:checked` 
-- pseudo child selectors: `:nth-child() 
+- Column combinator
+
+#### Pseudo
+
+- Pseudo classes `:hover`, `:visited`, `:focus` ,`:active`, `:checked`
+- pseudo child selectors: `:nth-child()
+
+### Forms and Dynamic Data
+
+- Searching - `<form>`, `<input>`
+
+---
+
+## [20.01](./jan/20-01) Pseudo classes and elements
+
+### Review
+
+### CSS Variables:
+
+Defining in `:root { --[name]: [value] }`
+
+### pseudo elements VS pseudo classes
+
+#### pseudo elements
+
+- `::after` `::before `
+- `::first-letter`
+- `::placeholder` for styling `placeholder` text
+- Using MDN to locate additional selectors, combinators, elements and rules
+
+### CSS units
+
+- `vh` and `vw`
+- Use cases for the different units
+
+#### Presentation pseudo classes and elements
+
+----
+## [24.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/24-01) Forms in Html
+### Icon Fonts
+- Conveying meaning without text: fontawesome
+- Adding fontawesome to our websites: choosing the correct CSS links
+- Sizing icons with Fontawsome sizing utility classes
+- Alternatives to Fontawesome - flaticon, thenounproject.com
+### Let The Light In 
+- Using `box-shadow` to emulate a light source
+- Using multiple instances of `box-shadow`
 ### Forms and Dynamic Data
 - Searching - `<form>`, `<input>`
-  
+- Sending forms to a URL - the `action` attribute
+- Importance of names: `<input name=[...]>` attribute, 
+   `<label for=[...]>`
+- URL structure & anatomy 
+- HTTP verbs - `GET`, `POST` and the `method` attribute
+ - `<form>`, `<fieldset>`, `<legend>`
+### Styling our Form 2 - Use Case
+- Creating a CSS only toggle switch
+### Publishing with GitHub pages
+------
+## [25.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/25-01) intro to Flexbox 
+### HTML/CSS assignment
+- Log-in page
+### Revision 
+### Flexbox on parent elements
+- Flexible boxes: `display: flex`, flex child & flex parent concept
+- Aligning and justifying: `justify-content` and `align-items`

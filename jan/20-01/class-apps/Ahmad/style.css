@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --my-color: blue;
+  --my-font-size: 3rem;
+  --font-family: "New Romans";
+}
+input::placeholder {
+  border: 2px solid orange;
+  color: var(--my-color);
+  font-style: oblique;
+  opacity: 0.5;
+  font-size: 1.5rem;
+}
+label {
+  color: orangered;
+  font-size: 2rem;
+}
+input {
+  height: 4rem;
+  font-size: 2rem;
+}
+p i::selection {
+  color: var(--my-color);
+  background-color: yellowgreen;
+}
+i {
+  text-decoration: underline wavy;
+}

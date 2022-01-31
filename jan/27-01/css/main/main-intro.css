@@ -1,0 +1,8 @@
+/* main intro */
+.main-intro {
+  padding-top: 20vh;
+  z-index: 1;
+  color: var(--main-text-color);
+  line-height: 3.5vh;
+  font-size: 1.5rem;
+}

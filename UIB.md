@@ -329,6 +329,14 @@ Defining in `:root { --[name]: [value] }`
 - Base sizing: `flex-basis` and the `flex` shorthand
 - Reordering children: `order` and `align-self`
 - The perfect center:
-  centering in fixed height parents with `display: flex` and `margin: auto`
+- centering in fixed height parents with `display: flex` and `margin: auto`
+### Html/Css assignment: Periodic Table
 
-### Html/Css assignment : Periodic Table
+-----
+
+## [27.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/27-01) Building a web page
+
+### Live coding session
+- Building HTML/CSS web page
+### Html/Css assignment: 
+- Creating a webpage using HTML/CSS : Mobile app

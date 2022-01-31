@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beyou</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <title>Beyou</title>
   </head>
   <body>
     <header>
@@ -76,20 +76,28 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
             unde corrupti earum cum pariatur veniam dignissimos quia deserunt
             vero recusandae sint omnis consequuntur ipsa officia velit? Amet
-            delectus mollitia dolore.
+            delectus mollitia dolore. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Veritatis impedit obcaecati fuga placeat facilis
+            quasi. Unde, quidem! Soluta, sequi magni?
           </div>
         </article>
         <article id="products">
           <h4>Our clients</h4>
-          <h5>Ali</h5>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
-          ullam?
-          <h5>Nancy</h5>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
-          ullam?
-          <h5>Steel</h5>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
-          ullam?
+          <div>
+            <div class="avatar"><h5>Ali</h5></div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+            ullam?
+          </div>
+          <div>
+            <div class="avatar"><h5>Nancy</h5></div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+            ullam?
+          </div>
+          <div>
+            <div class="avatar"><h5>Steel</h5></div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
+            ullam?
+          </div>
         </article>
         <article id="join">
           <h6>Soon</h6>
@@ -105,8 +113,16 @@
       <hr />
       <div>
         <h5>Made with ❤️ by Hadi</h5>
-        <h6>Copyright © 2022 Beyou Inc. All rights reserved.</h6>
+        <h6>
+          Copyright © <span id="year"></span> Beyou Inc. All rights reserved.
+        </h6>
       </div>
     </footer>
+    <script>
+      // soon we will learn all if that :)
+      let span = document.getElementById("year");
+      let year = new Date().getFullYear();
+      span.innerHTML = year;
+    </script>
   </body>
 </html>

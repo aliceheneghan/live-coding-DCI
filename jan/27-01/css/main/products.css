@@ -1,0 +1,8 @@
+/* products */
+#products {
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--company-them-bg-color);
+}

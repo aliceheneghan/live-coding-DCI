@@ -4,7 +4,7 @@
 @import url(./logo.css);
 @import url(./menu.css);
 @import url(./anchors.css);
-@import url(./main.css);
+@import url(./main/main.css);
 @import url(./footer.css);
 * {
   margin: 0;

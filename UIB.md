@@ -340,3 +340,19 @@ Defining in `:root { --[name]: [value] }`
 - Building HTML/CSS web page
 ### Html/Css assignment: 
 - Creating a webpage using HTML/CSS : Mobile app
+--------------
+
+## [31.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/31-01) Grid intro
+
+### CSS Grid on parent elements
+- Making our grid container: `.container { display: grid }`
+- Grid columns: css `grid-template-columns` and `fr` unit
+- Setting max and min sizes: css `minmax([min], [max])`
+- Spacing columns and rows - `gap`
+### CSS Grid on child elements
+- Spanning over several columns: 
+   `grid-column: [start] / [end];`, `span` keyword
+- Spanning over several rows: `grid-row: [start] / [end];`
+### Defining grid areas
+- Template areas: setting the parent with keywords, css `grid-template-areas`
+- Placing boxes in an area: css `grid-area`

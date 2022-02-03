@@ -6,32 +6,47 @@
     <meta name="description" content="Responsive Design 101" />
     <meta
       name="keywords"
-      content="html, css, web, webpage, design, internet,responsive"
+      content="html, css, web, webpage, design, internet,responsive, Hadi"
     />
     <meta name="author" content="Hadi Nsreeny" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./css/mob-style.css"
+      media="(max-width:500px)"
+    />
+
+    <!-- <link
+    rel="stylesheet"
+    href="./css/desk-style.css"
+    media="(max-width:1000px)"
+  /> -->
     <title>Media Query aka Responsive webpage</title>
   </head>
   <body>
-      <header>
-          <div class="hamburger">
-              <div></div>
-              <div></div>
-              <div></div>
-          </div>
-        <div class="side-menu">
-            <ul>
-              <li><a href="#">Start</a></li>
-              <li><a href="#">How to use?</a></li>
-              <li><a href="#">Advance level</a></li>
-              <li><a href="#">New Features</a></li>
-            </ul>
-          </div>
-        </section> 
-      </section>
-    <main  class="container">
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ab veniam veritatis aspernatur explicabo exercitationem ea, voluptates odio corrupti adipisci fugit esse eos obcaecati culpa deserunt hic architecto ipsam fugiat.</div>
+    <header>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="side-menu">
+        <ul>
+          <li><a href="#">Start</a></li>
+          <li><a href="#">How to use?</a></li>
+          <li><a href="#">Advance level</a></li>
+          <li><a href="#">New Features</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+      <div class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ab
+        veniam veritatis aspernatur explicabo exercitationem ea, voluptates odio
+        corrupti adipisci fugit esse eos obcaecati culpa deserunt hic architecto
+        ipsam fugiat.
+      </div>
     </main>
     <footer>
 
@@ -41,16 +56,16 @@
   let clicked = false; // true
   document.querySelector(".hamburger").
   addEventListener("click", () => {
-clicked = !clicked;
-console.log(clicked);
-if(clicked){
-  // do something only if clicked is true
-document.querySelector(".side-menu").
-style.cssText= "display: block;position: absolute;background-color: black;color: white;top: 9vh;left: 0;z-index: 1;";
-} else {
+    clicked = !clicked;
+    console.log(clicked);
+    if(clicked){
+      // do something only if clicked is true
+      document.querySelector(".side-menu").
+      style.cssText= "display: block;position: absolute;background-color: black;color: white;top: 9vh;left: 0;z-index: 1;";
+      } else {
   document.querySelector(".side-menu"). 
   style.cssText = "display: none;";
-}
+  }
   });
 </script>
   </body>

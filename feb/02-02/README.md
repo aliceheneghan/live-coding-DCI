@@ -66,3 +66,5 @@ LinkedIn: [your linkedIn](#)
 - [ColorZilla](https://www.colorzilla.com/chrome/)
 
 ---
+
+Made with ❤️ by me

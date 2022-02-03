@@ -30,3 +30,34 @@
 }
 
 /* hamburger menu */
+.hamburger {
+  display: flex;
+  justify-content: space-around ;
+  align-items: ;
+  flex-direction: column;
+  width: 5rem;
+  height: 3rem;
+}
+.hamburger div {
+  width: 2.5rem;
+  background-color: black;
+  border-radius: 10%;
+  border: 2px black solid;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.side-menu {
+  display: none;
+}
+/* css example but it's a javascript task
+.hamburger:hover + .side-menu {
+  display: block;
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 9vh;
+  left: 0;
+  z-index: 1;
+} */

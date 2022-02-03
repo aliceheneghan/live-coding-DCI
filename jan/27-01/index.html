@@ -105,8 +105,16 @@
       <hr />
       <div>
         <h5>Made with ❤️ by Hadi</h5>
-        <h6>Copyright © 2022 Beyou Inc. All rights reserved.</h6>
+        <h6>
+          Copyright © <span id="year"></span> Beyou Inc. All rights reserved.
+        </h6>
       </div>
     </footer>
+    <script>
+      // soon we will learn all if that :)
+      let span = document.getElementById("year");
+      let year = new Date().getFullYear();
+      span.innerHTML = year;
+    </script>
   </body>
 </html>

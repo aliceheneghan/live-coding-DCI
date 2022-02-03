@@ -17,5 +17,6 @@
 .logo :last-child {
   color: var(--company-them-logo-color);
   font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: "Pacifico", cursive;
 }

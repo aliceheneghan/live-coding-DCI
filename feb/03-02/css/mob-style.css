@@ -1,9 +1,3 @@
-@media only screen and (max-width: 600px) {
-  * {
-  }
-  :root {
-  }
-  body {
-    background-color: brown;
-  }
+@media only screen and (max-width: 500px) {
+  /*  */
 }

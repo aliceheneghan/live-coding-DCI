@@ -1,0 +1,10 @@
+/* main-section */
+.intro-container {
+  background-color: rgba(76, 76, 232, 0.912);
+}
+.products-container {
+  background-color: rgba(238, 91, 91, 0.809);
+}
+.clients-container {
+  background: radial-gradient(ellipse at top, rgba(148, 237, 207, 0.755), gray);
+}

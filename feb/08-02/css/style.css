@@ -7,3 +7,36 @@
   /* some var */
   --the-best-color: orange;
 }
+.box {
+  width: 3rem;
+  height: 2rem;
+  background-color: var(--the-best-color);
+  /* step num 1 ani name */
+  animation-name: move;
+  /* step num 2 ani for how long*/
+  animation-duration: 2s;
+}
+/* step 3 your keyframes */
+@keyframes move {
+  0% {
+    width: 4rem;
+  }
+  50% {
+    width: 10rem;
+    background-color: aqua;
+  }
+  100% {
+    width: 50rem;
+    background-color: black;
+  }
+}
+/* 
+from {
+    width: 3rem;
+  }
+  to {
+    width: 15rem;
+  }
+  
+
+*/

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- menu -->
     <header>
       <nav class="navbar">
         <nav class="subnav">
@@ -19,7 +20,7 @@
           </ul>
         </nav>
         <nav class="subnav">
-          <span class="subnavbtn">Locations</span>
+          <button class="subnavbtn">Locations</button>
           <ul class="subnav-content">
             <li class="list-item">Berlin</li>
             <li class="list-item">Dubai</li>
@@ -36,6 +37,16 @@
         </nav>
       </nav>
     </header>
+    <!-- <section class="side">
+      <article>
+        <div>
+          <h2>Let's protect our future to gether</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam
+          culpa, labore nam debitis odio? Quis, laborum expedita. Accusantium,
+          omnis
+        </div>
+      </article>
+    </section> -->
     <main>
       <section class="intro-container">
         <article>
@@ -61,6 +72,17 @@
             quasi. Unde, quidem! Soluta, sequi magni?
           </div>
         </article>
+        <article>
+          <div>
+            <h4>We believe in</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+            unde corrupti earum cum pariatur veniam dignissimos quia deserunt
+            vero recusandae sint omnis consequuntur ipsa officia velit? Amet
+            delectus mollitia dolore. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Veritatis impedit obcaecati fuga placeat facilis
+            quasi. Unde, quidem! Soluta, sequi magni?
+          </div>
+        </article>
       </section>
       <section class="clients-container">
         <article>
@@ -73,6 +95,7 @@
         </article>
       </section>
     </main>
+    <!-- footer -->
     <footer>
       <ul class="footer-menu">
         <li><a href="#" class="list-item">Jobs</a></li>
@@ -82,8 +105,13 @@
       <hr />
       <div>
         <h5>Made with ❤️ by Hadi</h5>
-        <h6>Copyright © 2022. All rights reserved.</h6>
+        <h6>Copyright © <span class="year"> </span>. All rights reserved.</h6>
       </div>
     </footer>
+    <script>
+      let span = document.querySelector(".year");
+      let year = new Date().getFullYear();
+      span.innerHTML = year;
+    </script>
   </body>
 </html>

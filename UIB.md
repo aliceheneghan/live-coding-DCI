@@ -376,3 +376,7 @@ Defining in `:root { --[name]: [value] }`
 - Default media type: `screen` is optional
 - Common features: `(min-width: <size>)`
 - Breakpoints: The "standard" bootstrap breakpoint values
+--------
+## [07.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/07-02) Responsive Web Design part 2
+### CSS Review 
+- Building a responsive web page 

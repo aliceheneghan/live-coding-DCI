@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap");
+@import url("./normalCss.css");
+@import url("./shap.css");
+
+:root {
+  /* var */
+  --company-styled-font: "Heebo", sans-serif;
+}
+body {
+  font-family: var(--company-styled-font);
+}
+/* Menu */
+nav {
+  width: 20vw;
+  height: 30vh;
+  /* display: none; */
+  /* border: 2px red dashed; */
+  background-color: rgba(0, 0, 0, 0.755);
+  border-radius: 2px;
+  padding: 2vh 2vw;
+  transition: 0.1s ease-in;
+  /* step 1 */
+  /* animation-name: dropdown-menu-move; */
+  /* step 2 */
+  animation-duration: 1s;
+}
+@keyframes dropdown-menu-move {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    height: 30vh;
+  }
+}
+@keyframes go-up-menu-move {
+  from {
+    opacity: 1;
+    height: 30vh;
+  }
+  to {
+    opacity: 0;
+    height: 0;
+  }
+}
+
+/* animation-name: go-up-menu-move; */
+/* a styles */
+ul {
+  list-style: none;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+nav ul li {
+  width: 100%;
+  border-radius: 2px;
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+ul li:hover {
+  background-color: whitesmoke;
+}
+ul li:hover > a {
+  color: rgba(0, 0, 0, 0.755);
+}

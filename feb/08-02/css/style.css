@@ -16,7 +16,7 @@
   /* step num 2 ani for how long*/
   animation-duration: 2s;
   /* opt */
-  animation-iteration-count: infinite;
+  animation-iteration-count: ;
   animation-delay: 5s;
 }
 /* step 3 your keyframes */
@@ -48,7 +48,7 @@ from {
   background-color: pink;
   animation-name: change;
   animation-duration: 2.5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: ;
   animation-delay: 5s;
   display: block;
   position: absolute;
@@ -80,19 +80,19 @@ from {
   color: lightblue;
   animation-name: letter-D;
   animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: ;
 }
 .dci :nth-child(2) {
   color: blue;
   animation-name: letter-C;
   animation-duration: 0.5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: ;
 }
 .dci :nth-child(3) {
   color: cornflowerblue;
   animation-name: letter-I;
   animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: ;
   /* animation: ; */
 }
 @keyframes letter-D {

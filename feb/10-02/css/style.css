@@ -1,10 +1,38 @@
 /* reset css */
 @import url("./normalize.css");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("./basic.setup.css");
+@import url("./var.css");
+@import url("./menu.css");
+@import url("./logo.css");
+@import url("./main-box.css");
+@import url("./footer.css");
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7vh repeat(4, 50vh);
+  grid-template-areas:
+    "menu"
+    "main"
+    "slider"
+    "card"
+    "footer";
 }
-:root {
-  font-size: 16px;
+@media only screen and (min-width: 600) {
+  body {
+    grid-template-rows: 15vh repeat(4, 75vh);
+  }
+  header nav .menu {
+    width: 10vw;
+    justify-content: flex-end;
+  }
+}
+@media only screen and (min-width: 900) {
+  body {
+    grid-template-rows: 15vh repeat(4, 65vh);
+  }
+
+  header nav .menu {
+    width: 10vw;
+    justify-content: flex-end;
+  }
 }

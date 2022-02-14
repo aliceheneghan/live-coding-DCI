@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+  box-shadow: 5px 5px 20px gray;
+  background-color: #f44;
+  animation-name: alive;
+}
+div::before,
+div::after {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #f44;
+}
+div::before {
+  right: -40px;
+}
+div::after {
+  top: -40px;
+}
+@keyframes alive {
+  from {
+    transform: scale(1) rotate(-45deg);
+  }
+  to {
+    transform: scale(1.5) rotate(-45deg);
+  }
+}

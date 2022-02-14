@@ -1,0 +1,19 @@
+/* main */
+.main-landing-part {
+  grid-area: main;
+}
+.main-landing-part div:first-child {
+  border-top: 8px red solid;
+  width: 100vw;
+  height: 15vh;
+}
+.main-landing-part div img {
+  width: 100%;
+  height: 100%;
+}
+.slider {
+  grid-area: slider;
+}
+.card {
+  grid-area: card;
+}

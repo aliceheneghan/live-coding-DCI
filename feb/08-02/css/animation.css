@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 80rem;
+    height: 80rem;
+    background-color: blueviolet;
+    animation-name: hello;
+    animation-duration: 5s;
+    animation-iteration-count:  ;
+}
+div span {
+    
+    
+}
+@keyframes hello {
+    0% {
+        width: 80rem;
+        height: 80rem;
+    }
+    50% {
+        width: 40rem;
+        height: 40rem;
+    }
+}

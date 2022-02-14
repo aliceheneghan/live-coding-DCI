@@ -1,0 +1,26 @@
+/* main-section */
+.intro-container {
+  grid-area: intro;
+  background-color: rgb(76, 76, 232);
+  height: 100%;
+}
+.products-container {
+  grid-area: products;
+  background-color: rgba(238, 91, 91, 0.809);
+  height: 100%;
+  display: grid;
+  padding: 5%;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+}
+.products-container article {
+  background-color: white;
+  padding: 3%;
+  margin: 5%;
+  box-shadow: 3px 3px 10px gray;
+}
+.clients-container {
+  grid-area: clients;
+  background: radial-gradient(ellipse at top, rgba(148, 237, 207, 0.755), gray);
+  height: 100%;
+}

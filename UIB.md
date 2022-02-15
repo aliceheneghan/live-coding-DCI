@@ -330,70 +330,108 @@ Defining in `:root { --[name]: [value] }`
 - Reordering children: `order` and `align-self`
 - The perfect center:
 - centering in fixed height parents with `display: flex` and `margin: auto`
+
 ### Html/Css assignment: Periodic Table
 
------
+---
 
 ## [27.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/27-01) Building a web page
 
 ### Live coding session
+
 - Building HTML/CSS web page
-### Html/Css assignment: 
+
+### Html/Css assignment:
+
 - Creating a webpage using HTML/CSS : Mobile app
---------------
+
+---
 
 ## [31.01](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/31-01) Grid intro
 
 ### CSS Grid on parent elements
+
 - Making our grid container: `.container { display: grid }`
 - Grid columns: css `grid-template-columns` and `fr` unit
 - Setting max and min sizes: css `minmax([min], [max])`
 - Spacing columns and rows - `gap`
+
 ### CSS Grid on child elements
-- Spanning over several columns: 
-   `grid-column: [start] / [end];`, `span` keyword
+
+- Spanning over several columns:
+  `grid-column: [start] / [end];`, `span` keyword
 - Spanning over several rows: `grid-row: [start] / [end];`
+
 ### Defining grid areas
+
 - Template areas: setting the parent with keywords, css `grid-template-areas`
 - Placing boxes in an area: css `grid-area`
 
------
+---
 
+## 01.02 Html / Css assignment
 
-## 01.02  Html / Css assignment 
 ### working on Youtube clone assignment using Grid and FlexBox
 
--------
+---
 
-## 02.02  Html / Css assignment 
-### Q & A 
+## 02.02 Html / Css assignment
+
+### Q & A
+
 ### working on Youtube clone assignment using Grid and FlexBox
 
--------
+---
+
 ## [03.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/03-02) Responsive Web Design
+
 ### Media queries
+
 - Anatomy of a media query: `@media [media-type] ([media features]) { ... }`
 - Default media type: `screen` is optional
 - Common features: `(min-width: <size>)`
 - Breakpoints: The "standard" bootstrap breakpoint values
---------
+
+---
+
 ## [07.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/07-02) Responsive Web Design part 2
-### CSS Review 
-- Building a responsive web page 
-------
+
+### CSS Review
+
+- Building a responsive web page
+
+---
+
 ## [08.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/08-02) CSS Animations
+
 ### Custom Animations
+
 - Creating custom animation scripts: `@keyframes [name] { ... }`
 - Applying animations: `:hover` and `:focus`, css `animation`
 - Controlling the script: `from`, `to` and `%` directives
-- Changing the iteration and direction: 
+- Changing the iteration and direction:
   `animation-iteration-count`, `animation-direction`
 - Best Design Practices: When and how much transition and animation
 
---------
+---
+
 ## [09.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/09-02) CSS Animations part 2
+
 ### Built in Animations
-- Transitioning property changes - 
+
+- Transitioning property changes -
   css `transition: [prop] [duration] [timing]`
 - Creating a nested navigation bar with `<nav>` and nested `<ul>`
 - Showing dropdowns on `:hover` and `:focus`
+
+---
+
+## [10.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/10-02) Overview
+
+### Building a webpage
+### Basic UIB test
+
+----
+
+## [14.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/for-you-all) Valentine's Day animation ❤️
+###  Revision and Practice

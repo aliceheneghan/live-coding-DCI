@@ -102,7 +102,20 @@ npm run deploy
 
 ## From Scratch
 
-if you want to start from scratch you need
+if you want to start from scratch you...
+
+### Shortcut
+mkdir ...
+cd ...
+npm init OR npm init -y
+npm i --save-dev gh-pages sass npm-run-all live-server (these are dev dependencies)
+add scripts to package.json
+create and edit .gitignore
+create src folder with index.html, scss folder →  main.scss
+git add . && git commit -m "initial commit"
+git push
+npm start (launches live server)
+open new terminal for gh workflow (don't close ls terminal)
 
 ## initialise npm in your project
 

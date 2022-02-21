@@ -1,0 +1,25 @@
+body {
+  background-color: orange;
+}
+header {
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 50vw;
+      li {
+        list-style: none;
+        a {
+          color: black;
+          text-decoration: none;
+          &:hover {
+            background-color: gray;
+          }
+          &:active {
+          }
+        }
+      }
+    }
+  }
+}

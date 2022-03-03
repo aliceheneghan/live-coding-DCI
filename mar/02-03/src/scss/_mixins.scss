@@ -1,0 +1,54 @@
+// Reset
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+// Flex-box
+@mixin flex ($justify-content,$align-items) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+// Box size
+@mixin box-size {
+    width: 3rem;
+    height: 3rem;
+}
+// Hide
+@mixin hide {
+    opacity: 0;
+    visibility: hidden;
+}
+// Reveal
+@mixin reveal {
+    opacity: 2;
+    visibility: visible;
+}
+// Cool mixin
+@mixin box-size-width-random-val ($width,$height) {
+    width: $width;
+    height: $height;
+}
+// Animation
+.box {
+    background-color: purple;
+}
+@keyframes fade-in {
+    0%{
+        @include hide ();
+        width: 5rem;
+       // transform: rotate;
+    }
+    100%{
+        @include reveal ();
+        @include box-size-width-random-val(3rem,5rem)
+       // transform: rotate (90deg);
+    }
+}
+@mixin fade-in ($time) {
+    animation-name: fade-in;
+    animation-duration: $time;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    }

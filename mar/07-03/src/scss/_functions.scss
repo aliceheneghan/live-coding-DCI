@@ -1,0 +1,14 @@
+@function find-div-width($map-key) {
+  $my-color: orange;
+  @if map-has-key($div-width, $map-key) {
+    @return map-get($div-width, $map-key);
+  } @else {
+    @error " #{$map-key} is not defined, Please use #{map-keys($div-width)} ";
+  }
+}
+
+.box3 {
+  width: find-div-width("xs");
+  background-color: gray;
+  height: 5rem;
+}

@@ -1,0 +1,27 @@
+/*
+to check something
+ @if  (your condition){
+    true
+   }
+    @else{
+        false
+    }
+*/
+// explain yourself here 😉
+@mixin find-div-width($map-key) {
+  @if map-has-key($div-width, $map-key) {
+    width: map-get($div-width, $map-key);
+  } @else {
+    @error " #{$map-key} is not defined, Please use #{map-keys($div-width)} ";
+  }
+}
+.box1 {
+  @include find-div-width("xs");
+  background-color: orange;
+  height: 5rem;
+}
+.box2 {
+  @include find-div-width("xxl");
+  background-color: black;
+  height: 5rem;
+}

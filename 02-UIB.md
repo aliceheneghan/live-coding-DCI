@@ -429,60 +429,95 @@ Defining in `:root { --[name]: [value] }`
 ## [10.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/10-02) Overview
 
 ### Building a webpage
+
 ### Basic UIB test
 
-----
+---
 
 ## [14.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/for-you-all) Valentine's Day animation ❤️
-###  Revision and Practice
 
-------
+### Revision and Practice
+
+---
+
 ## [15.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/15-02) CSS Frameworks
+
 ### Sass Introduction
-- Official  [Sass Web Site](https://sass-lang.com/)
-- Sass superpowers 
+
+- Official [Sass Web Site](https://sass-lang.com/)
+- Sass superpowers
 - Sass Basics
+
 ### [Project Structure ](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/sass)
 
-------
+---
+
 ## [16.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/16-02) Sass structure
+
 ### Build scripts: Using npm as a build tool
+
 - Installing dependencies: `npm install`
 - Running for development: `npm start`
 - Building for publication: `npm run build`
+
 ### UIB advanced test
-------
+
+---
+
 ## [17.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/17-02) Sass part 2
+
 ### Sass Variables: an introduction
+
 - Variables concept: "A box to keep values in"
 - Sass variables: Defining with `$[name]: [value]`, Using with `$[name]`
+
 ### Sass Nesting
 
-------
+---
+
 ## [28.02]() Bootstrap
+
 - Adding Bootstrap to our project (with CDNs) -
   JS dependencies and Bootstrap CSS, `<script src="...">`
-- Content, Components, utilities - 
-navigating the bootstrap documentation
+- Content, Components, utilities -
+  navigating the bootstrap documentation
 - Using the Bootstrap grid system: grid classes and flex
 - Smart copy pasting - read, understand, copy, modify
 - Using Bootstrap components: Creating a page with close to 0 CSS
-- customizing Bootstrap using Souce files 
+- customizing Bootstrap using Souce files
 
------
+---
+
 ## [01.03](https://github.com/FbW-WD21-E11/live-coding/tree/main/mar/01-03) Bootstrap Revision
-### Bootstrap Project 
 
-------
+### Bootstrap Project
+
+---
+
 ## [02.03](https://github.com/FbW-WD21-E11/live-coding/tree/main/mar/02-03) Sass mixins
+
 ### Sass Mixins: Predefined reusable rulesets
+
 - Defining mixins: `@mixin [name](){ ... }`
 - Using mixins: `@include [name]()`
-- Parameters and arguments: 
+- Parameters and arguments:
   `@mixin [name]([parameters])`, `@include [name]([arguments])`
 - Main use case for mixins.
 
------
+---
+
 ## [03.03](https://github.com/FbW-WD21-E11/live-coding/tree/main/mar/03-03) Sass maps/functions
+
 ### Sass maps: A collection of variables in one name
-### Sass functions  
+
+### Sass functions
+
+---
+
+## [07.03](https://github.com/FbW-WD21-E11/live-coding/tree/main/mar/07-03) Sass overview and loops
+
+### SASS Revision
+
+### Sass Loops
+
+- for loops

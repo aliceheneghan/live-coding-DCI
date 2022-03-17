@@ -11,7 +11,10 @@
 
 1. Go to the following link to find the BDL topics with the dates:
 
-   ## [BDL](BDL.md)
+   ## [BDL](01-BDL.md)
 
 2. Go to the following link to find the UIB topics with the dates:
-   ## [HTML & CSS](UIB.md)
+   ## [HTML & CSS](02-UIB.md)
+
+3. Go to the following link to find the PB topics with the dates:
+   ## [JavaScript](03-PB.md)

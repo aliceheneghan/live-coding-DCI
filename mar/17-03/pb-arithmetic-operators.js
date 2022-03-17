@@ -25,9 +25,11 @@ console.log(q4)
 
 //`The perimeter of a square is the length of each side summed together.`
 
-/* Q5. Calculate the perimeter of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
-​
-Q6. Calculate the area of a square. Each side is 5cm.
+// Q5. Calculate the perimeter of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
+let q5 = (5 + 6 + 7)
+console.log(q5)
+
+/* Q6. Calculate the area of a square. Each side is 5cm.
 ​
 Q7. Calculate the area of an [right-angled triangle](https://en.wikipedia.org/wiki/Right_triangle). Assume the length of the sides are 3cm, 4cm, 5cm.
 ​

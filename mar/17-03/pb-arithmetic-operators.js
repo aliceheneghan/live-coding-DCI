@@ -5,24 +5,27 @@ let q1 = (6450 / 15)
 console.log(q1)
 
 // Q2. Sylvia's income is 500 dollars per week. How much does Sylvia makes every year?
-​let q2 = (500 * 52)
-console.log(q1)
+let q2 = (500 * 52)
+console.log(q2)
 
-/* **Percentage**
-​
-Q3. Calculate the percentage of 18/30. 
-​
-`Expected output: 60%`
-​
-`Given 2 numbers "a" and "b", to calculate the percentage of one number in relation to the other the formula is: (a / b) * 100`
-​
-**Geometry Formulas** 
-​
-Q4. Calculate the perimeter of a square. Assume each side is 4.75cm.
-​
-`The perimeter of a square is the length of each side summed together.`
-​
-Q5. Calculate the perimeter of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
+// **Percentage**
+
+// Q3. Calculate the percentage of 18/30. 
+let q3 = (18 / 30 * 100)
+console.log(q3)
+
+// `Expected output: 60%`
+//`Given 2 numbers "a" and "b", to calculate the percentage of one number in relation to the other the formula is: (a / b) * 100`
+
+// Geometry Formulas 
+
+// Q4. Calculate the perimeter of a square. Assume each side is 4.75cm.
+let q4 = (4.75 * 4)
+console.log(q4)
+
+//`The perimeter of a square is the length of each side summed together.`
+
+/* Q5. Calculate the perimeter of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
 ​
 Q6. Calculate the area of a square. Each side is 5cm.
 ​

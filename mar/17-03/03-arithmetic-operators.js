@@ -68,3 +68,6 @@ let sum = 2 + 1 - 10;
 let multiply = 6 * 8;
 
 console.log(sum + (multiply / 2));
+
+
+

@@ -29,11 +29,13 @@ console.log(q4)
 let q5 = (5 + 6 + 7)
 console.log(q5)
 
-/* Q6. Calculate the area of a square. Each side is 5cm.
-​
-Q7. Calculate the area of an [right-angled triangle](https://en.wikipedia.org/wiki/Right_triangle). Assume the length of the sides are 3cm, 4cm, 5cm.
-​
-Q8. Calculate the volume of a cube. Length of each side is 9cm.
+// Q6. Calculate the area of a square. Each side is 5cm.
+let q6 = (Math.pow(5,2))
+console.log(q6)
+
+// Q7. Calculate the area of an [right-angled triangle](https://en.wikipedia.org/wiki/Right_triangle). Assume the length of the sides are 3cm, 4cm, 5cm.
+
+/* Q8. Calculate the volume of a cube. Length of each side is 9cm.
 ​
 **Consumer Formula**
 ​

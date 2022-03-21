@@ -30,35 +30,38 @@ let q5 = (5 + 6 + 7)
 console.log(q5)
 
 // Q6. Calculate the area of a square. Each side is 5cm.
-let q6 = (Math.pow(5,2))
+let q6 = (5 ** 2)
 console.log(q6)
 
 // Q7. Calculate the area of an [right-angled triangle](https://en.wikipedia.org/wiki/Right_triangle). Assume the length of the sides are 3cm, 4cm, 5cm.
+let q7 = ((3+4) / 2)
+console.log(q7)
 
-/* Q8. Calculate the volume of a cube. Length of each side is 9cm.
-​
-**Consumer Formula**
-​
-Q9. Calculate the three bills including tips:
+// Q8. Calculate the volume of a cube. Length of each side is 9cm.​
+let q8 = (9 ** 3)
+console.log(q8)
+
+// Consumer Formula
+
+// Q9. Calculate the three bills including tips:
 €22.35 + 10% tip
 €26.67 + 15% tip
 €35.92 + 20% tip
-​
+
 ```
-To calculate the percentage of a number:
-​
+To calculate the percentage of a number:​
 1. divide the percentage amount by 100
 2. multiply your number by the result of step 1
-​
 For example, the 15% of 30:
-​
 - divide 15 by 100: 15 / 100, which gives 0.15
 - multiply 30 by 0.15: 30 * 0.15
 ```
+let q9a = (22.35 + ((10/100) * 22.35)
+console.log(q9a)
+
+// Average 
 ​
-**Average** 
-​
-Q10. The number of hours Noemy worked over the last two weeks are 8, 6, 5, 9, 8, 2, 1, 8.5, 7, 4
+/* Q10. The number of hours Noemy worked over the last two weeks are 8, 6, 5, 9, 8, 2, 1, 8.5, 7, 4
 What is Noemy's average hours worked per day?
 ​
 ```

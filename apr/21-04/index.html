@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    for (let i = 0; i < products.length; i++) {
+        <div>
+            <div class="product-image">
+                <img src="products[i].img">
+            </div>
+            <h3>products[i].name</h3>
+            <h4>products[i].brand</h4>
+            <div>products[i].price</div>
+            <div class="other-pictures">
+                for (let j = 0; j < products[i].otherPictures.length; j++) {
+                    <div class="small-picture">
+                        <img src="products[i].otherPictures[j]">
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</body>
+</html>

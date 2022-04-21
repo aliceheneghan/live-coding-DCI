@@ -138,11 +138,42 @@ function getRandomPerson(people) {
   return luckyWinner[0];
 }
 
-let luckyWinner1 = getRandomPerson(peopleRejected); 
-let luckyWinner2 = getRandomPerson(peopleRejected); 
-let luckyWinner3 = getRandomPerson(peopleRejected); 
+let luckyWinner1 = getRandomPerson(peopleRejected);
+let luckyWinner2 = getRandomPerson(peopleRejected);
+let luckyWinner3 = getRandomPerson(peopleRejected);
 
 console.log(luckyWinner1, luckyWinner2, luckyWinner3);
 
 
-console.log(2);
+function containsNumber(stringInput) {
+  /*    if(typeof stringInput !== "string")
+         return false;
+         return */
+  if (
+    !isNaN(stringInput) ||
+    !isNaN(parseFloat(stringInput)) ||
+    !isNaN(parseInt(stringInput))
+  ) {
+    return false;
+  } else {
+    return true;
+  }
+}
+console.log(containsNumber("T-shirts x2"));
+console.log(containsNumber("T-shirts"));
+console.log(containsNumber("abc"));
+console.log(containsNumber("abc"));
+console.log(containsNumber("just a string"));
+console.log(containsNumber("xyz"));
+
+let containsVowel = (stringInput) => {
+  const vowels = "aeiou";
+  for (let i = 0; i < stringInput.length; i++) {
+    if (vowels.includes(stringInput[i])) {
+      return true;
+    }
+    return false;
+  }
+};
+
+console.log(containsVowel("bla"))

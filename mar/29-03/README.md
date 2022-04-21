@@ -1,11 +1,10 @@
-# 28-03 - Conditional statement
+# 29-03 - Conditional statement
 
 - introduction to algorithms
 - conditional statements
 - if...else statement
 - if...else if...else
-- introduction to scope
-- block scope
+
 
 ## Exercises
 

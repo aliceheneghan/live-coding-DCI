@@ -31,3 +31,14 @@ function reverseString(string) {
 }
 
 reverseString(stringToReverse)
+
+let i = 0; //1
+for (;;){
+
+    console.log('hello i  is', i)
+    if (i == 8) break; //2
+    i++ //3
+
+}
+
+for (let i = 0; i < 5; i -= -1) console.log('hello i is #2', i)

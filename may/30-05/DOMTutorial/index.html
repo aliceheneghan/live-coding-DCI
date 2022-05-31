@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="styles.css" rel="stylesheet" />
+	
+    <title>JavaScript DOM</title>
+</head>
+<body>
+    
+	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">IMDb "Top 250"</h1>
+          <p>(Sorted by IMDb Rating Descending)</p>
+          <form id="search-movies">
+            <input type="text" placeholder="Search movies..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="movie-list">
+	    	<h2 class="title">According to IMDb:</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">1. The Shawshank Redemption (1994)</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">2. The Godfather (1972)</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">3. The Dark Knight (2008)</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">4. The Godfather: Part II (1974)</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-movie">
+	    	<input type="text" placeholder="Add a movie..." />
+	    	<button>Add</button>
+	    </form>
+
+	</div>
+	
+	<!-- ADD JS -->
+	<script src="app.js"></script>
+	
+
+
+
+</body>
+</html>

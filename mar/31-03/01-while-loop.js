@@ -38,7 +38,7 @@ while (i < 5) {
 console.log(i);
 
 // let's print only the even numbers to the console
-let j = 0;
+ let j = 0;
 while (j < 10) {
   if (j % 2 === 0) {
     console.log(j);

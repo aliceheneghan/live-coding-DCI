@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>DOM</title>
+    <title>DOM Node list</title>
   </head>
   <body>
+    <div class="main">
+      Dark theme 🌙
+      <input type="checkbox" onchange="theme()" name="mood" id="light-dark" />
+    </div>
     <header>
       <nav>
         <ul id="menuList">
@@ -18,10 +22,10 @@
         </ul>
       </nav>
     </header>
-    <h1>Welcome to my page</h1>
+    <h1 class="main">Welcome to my page</h1>
     <section>
       <article>
-        <h4>Something here</h4>
+        <h4 class="highlight">Something here</h4>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
           nihil.
@@ -29,25 +33,22 @@
       </article>
       <article>
         <h6>Cities I haven't visit yet</h6>
-        <ul>
+        <ol>
           <li>Rotterdam</li>
           <li>London</li>
-          <li>koala Lumpur</li>
-        </ul>
+          <li class="highlight">Koala Lumpur</li>
+        </ol>
       </article>
       <div class="container">
         Hi I am div
-        <span></span>
+        <span> </span>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
     </section>
-    <div class="main">
-      we are here to support you
-      <input type="checkbox" onchange="theme()" name="mood" id="light-dark" />
-    </div>
+
     <footer>
       <h5>Made with ❤️ by me</h5>
     </footer>

@@ -1,3 +1,23 @@
+ul li {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+/* ul li button {
+   justify-self: end;
+} */
 ul li:nth-child(2n) {
   background-color: orange;
+}
+.done {
+  color: lightgreen;
+  text-decoration: line-through;
+}
+.not-done {
+  color: black;
+  text-decoration: none;
+}
+button {
+  border: 0 none;
+  background-color: transparent;
 }

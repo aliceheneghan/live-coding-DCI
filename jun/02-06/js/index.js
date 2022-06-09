@@ -28,8 +28,15 @@ const addToList = (e) => {
     // step 3
     newLi.appendChild(text);
     newLi.style.backgroundColor = colorGen();
+    const doneBtn = document.createElement("button");
+    const delBtn = document.createElement("button");
+    doneBtn.innerHTML = "✔️";
+    delBtn.innerHTML = "❌";
+    newLi.appendChild(doneBtn);
+    newLi.appendChild(delBtn);
     ul.appendChild(newLi);
-
+    delBtn.addEventListener("click", () => newLi.remove());
+    doneBtn.addEventListener("click", () => newLi.classList.add("done"));
     document.querySelector("#user-data").value = "";
   } else {
     document.querySelector("#user-data").placeholder =

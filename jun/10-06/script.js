@@ -1,9 +1,12 @@
 const body = document.querySelector('body')
 
-let markedId = -1;
-let markedText = 0;
+let markedId = -1; // it's the id of the tile
+let markedText = 0; // this is the text of the tile
+let mistakes = 0; 
 
 function initialize() {
+    
+    resetGlovalVariables()
 
     for (let i = 0; i < 10; i++) {
 
@@ -29,7 +32,7 @@ function handleClick(e) {
     if (markedId === -1) { // this is the first tile
         tile.classList.add('marked');
         markedId = e.target.id;
-
+        markedText = e.target.innerText;
     } else { // there are tiles marked
 
         if (markedId === e.target.id) { // same tile clicked
@@ -42,6 +45,12 @@ function handleClick(e) {
 
             } else { // user clicked wrong tile
 
+                mistakes += 1;
+                console.log('mistakes is', mistakes)
+                if (mistakes > 2) {
+
+                   loose()
+                }
             }
             tile.classList.add('marked')
         }
@@ -49,4 +58,24 @@ function handleClick(e) {
    
     console.log('tile is', markedId)
 
+}
+
+function loose() {
+    alert('Many mistakes you loose!')
+    removeTiles()
+    initialize()
+}
+
+function removeTiles() {
+
+    const tiles = document.querySelectorAll('.tile')
+
+    tiles.forEach(tile => tile.remove())
+
+}
+
+function resetGlovalVariables(){
+    mistakes = 0;
+    markedId = -1;
+    markedText = 0;
 }

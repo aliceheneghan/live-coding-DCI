@@ -30,4 +30,4 @@ function move(e) {
   if (e.code == "KeyD") goRight();
 }
 
-body.addEventListener("keyup", move);
+body.addEventListener("keydown, move);

@@ -1,0 +1,11 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0px;
+}
+
+li > button {
+    margin-left: 16px;
+}
